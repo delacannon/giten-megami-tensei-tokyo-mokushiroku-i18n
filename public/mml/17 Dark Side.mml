@@ -1,0 +1,53 @@
+; VGM Analyzer MML for OPNAvoid (PMD-style dialect)
+; Source: 17 Dark Side.vgz
+; YM2203 FM/SSG. Minimum 1/16; manual BPM=70, not detected.
+; Quantized base FNUM pitch and observed FM patches; modulation and live register changes are not reproduced.
+; Unknown/out-of-range pitches become rests. KEY OFF does not include audible release.
+; MIDI 60 = o4 c; &=tie; default full gate. SSG v is the peak volume; software envelopes are not reproduced.
+; Timer B T132: approximately 69.892 BPM (hardware timer rounding).
+; OPNAvoid compatibility does not imply compatibility with every PMD compiler.
+; VGM loop is not expanded.
+; WARNING (1): Unconverted YM2203 register port=0 reg=0x22
+; WARNING (1): SSG hardware envelope shape omitted
+; Observed patch @1
+@0 = { 0, 3, 30, 13, 8, 6, 11, 44, 2, 7, 3, 0, 28, 6, 10, 6, 11, 34, 3, 0, 3, 0, 28, 4, 3, 6, 3, 20, 0, 0, 3, 0, 28, 1, 5, 6, 2, 30, 2, 1, 3, 0 }
+; Observed patch @2
+@1 = { 3, 7, 25, 4, 1, 2, 1, 30, 1, 1, 5, 0, 25, 4, 1, 2, 1, 32, 1, 3, 0, 0, 25, 4, 1, 2, 1, 37, 1, 5, 2, 0, 10, 7, 1, 7, 1, 38, 1, 2, 0, 0 }
+; Observed patch @3
+@2 = { 2, 4, 15, 4, 3, 5, 2, 40, 1, 5, 7, 0, 10, 8, 0, 7, 12, 50, 1, 3, 4, 0, 15, 4, 3, 5, 2, 23, 1, 0, 2, 0, 10, 8, 0, 5, 0, 34, 1, 0, 3, 0 }
+
+; CH1
+A T132 V108 p3 @0 o3 d1& d2.& d16 o4 e16 f16 e16 o3 d1& d2.& d16 c8. d1& d2.& d16 o4 e16
+A f16 e16 o3 d1& d2. r16 g8 r16 d1& d2. r16 o4 e16 f16 e16 o3 d1& d2. c8. d1& d2.& d16 o4
+A e16 f16 e16 o3 d1& d2.& d16 g8. f2.& f8 e16 f16 o4 c2.& c8 o3 b16 o4 c16 o3 e2.& e8 e16
+A e16 o2 b2 o3 b2 d+1 a+4. a16 a+16 g16 g+16 f16 g16 d+16 f16 c+8 d2.& d8 c+16 d16 a2 g16
+A a16 f16 g16 e16 f16 d16 e16 f2.& f8 e16 f16 o4 c2.& c8 o3 b16 o4 c16 o3 e2.& e8 e16 e16
+A o2 b2 o3 b2 d+2.& d+8. r16 a+4& a+16 r16 a16 a+16 g16 g+16 f16 g16 d+16 f16 c+16 r16
+A d2.& d16 r16 c+16 d16 a4.& a16 r16 o4 a4.& a16 r16 o3 d1& d2. o4 e16 f16 e16 o3 d1&
+A d2.& d16 c8. d1& d2.& d16 o4 e16 f16 e16 o3 d1
+
+; CH2
+B T132 V108 p3 @1 o3 d1& d1& d1& d2.& d16 c8. d1& d1& d1& d2. r16 g8 r16 d1& d1& d1& d2.
+B c8. d1& d1& d1& d2.& d16 g8. o4 f1& f1 e1& e1 d+1& d+1 d1& d1 f1& f1 e1& e1 d+1& d+2.&
+B d+8. r16 d1& d2.& d8. r16 o3 d1& d1& d1& d2. c8. d1& d1& d1
+
+; CH3
+C T132 V108 p3 @2 o4 f1& f1& f1& f1& f1& f1& f1 r1 r1 r1 r1 r1 r1 r1 r1 r2. r8. o5 c1&
+C c2.& c8 r8 o4 b1& b2.& b8 r8 a+1& a+2.& a+8 r8 a1& a2.& a8 r8 o5 c1& c2.& c8 r8 o4 b1&
+C b2.& b8 r8 a+1& a+2.& a+8 r8 a1& a2.& a8 r8 f1& f1& f1& f1& f1& f1& f2.& f8.
+
+; SSG1
+G T132 P1 v5 o2 f1& f2.& f8 r8 v4 f1& f2.& f8 r8 v3 f1& f2.& f8 r8 v1 f1& f2.& f16 r1 r1
+G r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r8 v5 f1& f2.& f16 r8
+G v4 f1& f2.& f8 r8 v3 f1& f2.& f8 r8 v1 f1
+
+; SSG2
+H T132 P1 v5 o2 c1& c2.& c8 r8 v4 c1& c2.& c8 r8 v3 c1& c2.& c8 r8 v1 c1& c2.& c16 r1 r1
+H r1 r1 r1 r1 r1 r1 r8 v5 f1& f2.& f8 r8 e1& e2.& e8 r8 d+1& d+2.& d+8 r8 d1& d2.& d8 r8
+H f1& f2.& f8 r8 e1& e2.& e8 r8 d+1& d+2.& d+8 r8 d1& d2.& d8 r8 v5 o4 c1& c2.& c16 r8 v4
+H c1& c2.& c8 r8 v3 c1& c2.& c8 r8 v1 c1
+
+; SSG3
+I T132 P1 v5 o1 b1& b2.& b8 r8 v4 b1& b2.& b8 r8 v3 b1& b2.& b8 r8 v1 b1& b1 r1 r1 r1 r1
+I r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r2. r8. v5 b1& b2.& b16 r8 v4
+I b1& b2.& b8 r8 v3 b1& b2.& b8 r8 v1 b1

@@ -1,0 +1,199 @@
+; VGM Analyzer MML for OPNAvoid (PMD-style dialect), tick-exact
+; Source: 19 Millennium After The Fall.vgz
+; YM2203 FM/SSG on the song's own Timer B ticks: T183 = 118.721 BPM, 24 ticks per quarter (T estimated from write timing).
+; Pitch = PMD note + D detune; volume changes inside notes are tied pieces (FM V, SSG v).
+; Vibrato that PMD's own LFO reproduces is written as M/*1, other pitch movement as per-tick D.
+; Mixed for OPNAvoid's player: FM 19 TL steps down, rhythm master 4 steps down, SSG v on its 3 dB curve.
+; Not reproduced: hardware LFO, SSG hardware envelope, operator changes other than carrier TL.
+; OPNAvoid compatibility does not imply compatibility with every PMD compiler.
+; VGM loop is not expanded.
+; WARNING (1): Unconverted YM2203 register port=0 reg=0x22
+; WARNING (1): SSG hardware envelope shape omitted
+@0 = { 0, 3, 30, 13, 8, 6, 11, 44, 2, 7, 3, 0, 28, 6, 10, 6, 11, 34, 3, 0, 3, 0, 28, 4, 3, 6, 3, 20, 0, 0, 3, 0, 28, 1, 5, 6, 2, 30, 2, 1, 3, 0 }
+@1 = { 7, 6, 31, 0, 0, 6, 0, 45, 0, 2, 5, 0, 31, 0, 0, 5, 0, 52, 0, 1, 3, 0, 31, 0, 0, 6, 0, 52, 0, 4, 3, 0, 31, 0, 0, 5, 0, 52, 0, 0, 5, 0 }
+@2 = { 7, 6, 31, 0, 0, 6, 0, 42, 0, 2, 5, 0, 31, 0, 0, 5, 0, 49, 0, 1, 3, 0, 31, 0, 0, 6, 0, 49, 0, 4, 3, 0, 31, 0, 0, 5, 0, 49, 0, 0, 5, 0 }
+@3 = { 7, 6, 31, 0, 0, 6, 0, 54, 0, 2, 5, 0, 31, 0, 0, 5, 0, 61, 0, 1, 3, 0, 31, 0, 0, 6, 0, 61, 0, 4, 3, 0, 31, 0, 0, 5, 0, 61, 0, 0, 5, 0 }
+
+; CH1
+A T183 V108 @0 p3 V108 D0 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24&
+A c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24&
+A c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24&
+A c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24&
+A c96 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96
+A r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24&
+A g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96
+A o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 d16.&
+A d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.&
+A d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.&
+A d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.&
+A d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96
+A o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24&
+A g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96
+A a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.&
+A a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96
+A a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96
+A r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24&
+A a+96 r96 g24& g96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96
+A g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96
+A r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3
+A c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 c16.& c48
+A r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2
+A g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96
+A r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96
+A a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.&
+A a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96
+A a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96
+A r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24&
+A a+96 r96 g24& g96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96
+A g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96
+A r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3
+A c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 c16.& c48
+A r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2
+A g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96
+A r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96
+A a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.&
+A c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.&
+A a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96
+A a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96
+A r96 a+24& a+96 r96 g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24&
+A a+96 r96 g24& g96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 d16.& d48 r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96
+A g24& g96 r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96
+A r96 o3 c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3
+A c16.& c48 r96 o2 g24& g96 r96 a+16.& a+48 r96 a24& a96 r96 a+24& a+96 r96 g24& g96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 o3 c24& c96 r96 o2 a24& a96 r96 o3 d16.& d48
+A r96 o2 a24& a96 r96 o3 c16.& c48 r96 o2 b24& b96 r96 a+24& a+96 r96 a24& a96 r96 o3 d48
+
+; CH2
+B T183 V108 r1 r1 r1 r1 r1 r1 r1 r1 @1 p3 V108 D0 o4 a1& a2.& a8.& a24& a96 r96 g1& g2.& g8.& g24&
+B g96 r96 a1& a2.& a8.& a24& a96 r96 g1& g2.& g8.& g24& g96 r96 a1& a2.& a8.& a24& a96 r96 g1& g2.&
+B g8.& g24& g96 r96 a1& a2.& a8.& a24& a96 r96 g1& g2.& g8.& g24& g96 r96 o5 d16.& d48 r96 f24& f96
+B r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 a+24& a+96 r96 d24& d96 r96 o6
+B c24& c96 r96 o5 d24& d96 r96 a+24& a+96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96
+B d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 e24& e96
+B r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96
+B c16.& c48 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 a+24&
+B a+96 r96 c24& c96 r96 o6 c24& c96 r96 o5 c24& c96 r96 a+24& a+96 r96 c24& c96 r96 a24& a96 r96 c24&
+B c96 r96 g24& g96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 e24& e96 r96 c24& c96 r96 f24& f96 r96
+B c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 e24& e96
+B r96 c24& c96 r96 d16.& d48 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96
+B d24& d96 r96 a+24& a+96 r96 d24& d96 r96 o6 c24& c96 r96 o5 d24& d96 r96 a+24& a+96 r96 d24& d96
+B r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24&
+B d96 r96 f24& f96 r96 d24& d96 r96 e24& e96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96
+B d24& d96 r96 f24& f96 r96 d24& d96 r96 c16.& c48 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24&
+B c96 r96 a24& a96 r96 c24& c96 r96 a+24& a+96 r96 c24& c96 r96 o6 c24& c96 r96 o5 c24& c96 r96 a+24&
+B a+96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96
+B e24& e96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96
+B r96 g24& g96 r96 c24& c96 r96 e24& e96 r96 c24& c96 r96 d16.& d48 r96 f24& f96 r96 d24& d96 r96
+B g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 a+24& a+96 r96 d24& d96 r96 o6 c24& c96 r96 o5
+B d24& d96 r96 a+24& a+96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24&
+B a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 e24& e96 r96 d24& d96 r96
+B f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 c16.& c48 r96 f24&
+B f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 a+24& a+96 r96 c24& c96
+B r96 o6 c24& c96 r96 o5 c24& c96 r96 a+24& a+96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96
+B r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 e24& e96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 g24&
+B g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 e24& e96 r96 c24& c96 r96
+B d16.& d48 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 a+24&
+B a+96 r96 d24& d96 r96 o6 c24& c96 r96 o5 d24& d96 r96 a+24& a+96 r96 d24& d96 r96 a24& a96 r96 d24&
+B d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96
+B d24& d96 r96 e24& e96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96
+B r96 d24& d96 r96 c16.& c48 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96
+B c24& c96 r96 a+24& a+96 r96 c24& c96 r96 o6 c24& c96 r96 o5 c24& c96 r96 a+24& a+96 r96 c24& c96
+B r96 a24& a96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 e24& e96 r96 c24&
+B c96 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96 r96
+B c24& c96 r96 e24& e96 r96 c24& c96 r96 d1& d2.& d8.& d24& d96 r1 r1 r32
+
+; CH3
+C T183 V108 r1 r1 r1 r1 r1 r1 r1 r1 @2 p3 V108 D0 o5 d1& d2.& d8.& d24& d96 r96 c1& c2.& c8.& c24&
+C c96 r96 d1& d2.& d8.& d24& d96 r96 c1& c2.& c8.& c24& c96 r96 d1& d2.& d8.& d24& d96 r96 c1& c2.&
+C c8.& c24& c96 r96 d1& d2.& d8.& d24& d96 r96 c1& c2.& c8.& c24& c96 r8. r96 @3 d16.& d48 r96 f24&
+C f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 a+24& a+96 r96 d24& d96
+C r96 o6 c24& c96 r96 o5 d24& d96 r96 a+24& a+96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96
+C r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 e24&
+C e96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96
+C c16.& c48 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 a+24&
+C a+96 r96 c24& c96 r96 o6 c24& c96 r96 o5 c24& c96 r96 a+24& a+96 r96 c24& c96 r96 a24& a96 r96 c24&
+C c96 r96 g24& g96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 e24& e96 r96 c24& c96 r96 f24& f96 r96
+C c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 e24& e96
+C r96 c24& c96 r96 d16.& d48 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96
+C d24& d96 r96 a+24& a+96 r96 d24& d96 r96 o6 c24& c96 r96 o5 d24& d96 r96 a+24& a+96 r96 d24& d96
+C r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24&
+C d96 r96 f24& f96 r96 d24& d96 r96 e24& e96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96
+C d24& d96 r96 f24& f96 r96 d24& d96 r96 c16.& c48 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24&
+C c96 r96 a24& a96 r96 c24& c96 r96 a+24& a+96 r96 c24& c96 r96 o6 c24& c96 r96 o5 c24& c96 r96 a+24&
+C a+96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96
+C e24& e96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96
+C r96 g24& g96 r96 c24& c96 r96 e24& e96 r96 c24& c96 r96 d16.& d48 r96 f24& f96 r96 d24& d96 r96
+C g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 a+24& a+96 r96 d24& d96 r96 o6 c24& c96 r96 o5
+C d24& d96 r96 a+24& a+96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24&
+C a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 e24& e96 r96 d24& d96 r96
+C f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 c16.& c48 r96 f24&
+C f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 a+24& a+96 r96 c24& c96
+C r96 o6 c24& c96 r96 o5 c24& c96 r96 a+24& a+96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96
+C r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 e24& e96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 g24&
+C g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 e24& e96 r96 c24& c96 r96
+C d16.& d48 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 a+24&
+C a+96 r96 d24& d96 r96 o6 c24& c96 r96 o5 d24& d96 r96 a+24& a+96 r96 d24& d96 r96 a24& a96 r96 d24&
+C d96 r96 g24& g96 r96 d24& d96 r96 a24& a96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96 r96
+C d24& d96 r96 e24& e96 r96 d24& d96 r96 f24& f96 r96 d24& d96 r96 g24& g96 r96 d24& d96 r96 f24& f96
+C r96 d24& d96 r96 c16.& c48 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96
+C c24& c96 r96 a+24& a+96 r96 c24& c96 r96 o6 c24& c96 r96 o5 c24& c96 r96 a+24& a+96 r96 c24& c96
+C r96 a24& a96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 f24& f96 r96 c24& c96 r96 e24& e96 r96 c24&
+C c96 r96 f24& f96 r96 c24& c96 r96 g24& g96 r96 c24& c96 r96 a24& a96 r96 c24& c96 r96 g24& g96 r96
+C c24& c96 r96 e24& e96 r96 c24& c96 r96 d1& d2.& d8.& d24& d96 r1 r2. r16.
+
+; SSG1
+G T183 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 P1 v5 D0 o4 d1& d1& c1& c1& d1& d1& c1& c2&
+G c8.& c32& v5 c8& c32 r8 v5 c1& o3 b2& g4& g32& v5 g8& g32 r16 v5 a+1& a2& f4& f32& v5 f8& f32 r16
+G v5 o4 c1& o3 b2& g4& g32& v5 g8& g32 r16 v5 a+1& a2& f4& f32& v5 f8& f32 r16 v5 o4 c1& o3 b2& g4&
+G g32& v5 g8& g32 r16 v5 a+1& a2& f4& f32& v5 f8& f32 r16 v5 o4 c1& o3 b2& g4& g32& v5 g8& g32 r16 v5
+G a+1& a2& f4& f32& v5 f8& f32 r16 v5 a1& a1& a96 r1 r1 r96
+
+; SSG2
+H T183 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 P1 v5 D0 o3 a1& a1& g1& g1& a1& a1& g1& g2&
+H g8.& g32& v5 g8& g32 r8 v5 D6 b1& D7 a+2& D-8 g4& g32& v5 g8& g32 r16 v5 D8 a1& D-8 a2& f4& f32& v5
+H f8& f32 r16 v5 D6 b1& D7 a+2& D-8 g4& g32& v5 g8& g32 r16 v5 D8 a1& D-8 a2& f4& f32& v5 f8& f32 r16
+H v5 D6 b1& D7 a+2& D-8 g4& g32& v5 g8& g32 r16 v5 D8 a1& D-8 a2& f4& f32& v5 f8& f32 r16 v5 D6 b1&
+H D7 a+2& D-8 g4& g32& v5 g8& g32 r16 v5 D8 a1& D-8 a2& f4& f32& v5 f8& f32 r16 v5 a1& a1& a96 r1 r1
+H r96
+
+; SSG3
+I T183 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 P1 v5 D0 o3 f1& f1& e1& e1& f1& f1& e1& e1&
+I e96 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r1 r96

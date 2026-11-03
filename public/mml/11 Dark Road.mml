@@ -1,0 +1,79 @@
+; VGM Analyzer MML for OPNAvoid (PMD-style dialect)
+; Source: 11 Dark Road.vgz
+; YM2203 FM/SSG. Minimum 1/16; manual BPM=92, not detected.
+; Quantized base FNUM pitch and observed FM patches; modulation and live register changes are not reproduced.
+; Unknown/out-of-range pitches become rests. KEY OFF does not include audible release.
+; MIDI 60 = o4 c; &=tie; default full gate. SSG v is the peak volume; software envelopes are not reproduced.
+; Timer B T162: approximately 92.199 BPM (hardware timer rounding).
+; OPNAvoid compatibility does not imply compatibility with every PMD compiler.
+; VGM loop is not expanded.
+; WARNING (1): Unconverted YM2203 register port=0 reg=0x22
+; WARNING (1): SSG hardware envelope shape omitted
+; Observed patch @1
+@0 = { 3, 7, 25, 4, 1, 2, 1, 30, 1, 1, 5, 0, 25, 4, 1, 2, 1, 32, 1, 3, 0, 0, 25, 4, 1, 2, 1, 37, 1, 5, 2, 0, 10, 7, 1, 7, 1, 40, 1, 2, 0, 0 }
+; Observed patch @2
+@1 = { 3, 7, 25, 3, 0, 2, 2, 30, 1, 1, 6, 0, 25, 3, 0, 2, 2, 32, 1, 2, 0, 0, 25, 3, 0, 2, 2, 37, 1, 3, 2, 0, 10, 5, 0, 7, 2, 30, 1, 2, 0, 0 }
+; Observed patch @3
+@2 = { 0, 5, 31, 4, 1, 0, 1, 8, 0, 3, 4, 0, 18, 1, 1, 9, 1, 22, 0, 15, 4, 0, 31, 4, 1, 0, 1, 25, 0, 7, 1, 0, 31, 12, 0, 7, 1, 34, 0, 1, 7, 0 }
+; Observed patch @4
+@3 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 65, 0, 1, 1, 0 }
+; Observed patch @5
+@12 = { 0, 3, 30, 13, 8, 6, 11, 44, 2, 7, 3, 0, 28, 6, 10, 6, 11, 34, 3, 0, 3, 0, 28, 4, 3, 6, 3, 20, 0, 0, 3, 0, 28, 1, 5, 6, 2, 36, 2, 1, 3, 0 }
+; Observed patch @6
+@4 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 61, 0, 1, 1, 0 }
+; Observed patch @7
+@5 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 57, 0, 1, 1, 0 }
+; Observed patch @8
+@6 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 53, 0, 1, 1, 0 }
+; Observed patch @9
+@7 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 49, 0, 1, 1, 0 }
+; Observed patch @10
+@8 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 45, 0, 1, 1, 0 }
+; Observed patch @11
+@9 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 41, 0, 1, 1, 0 }
+; Observed patch @12
+@10 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 37, 0, 1, 1, 0 }
+; Observed patch @13
+@11 = { 2, 7, 31, 3, 2, 3, 10, 30, 0, 2, 3, 0, 31, 10, 2, 7, 7, 0, 0, 1, 1, 0, 31, 3, 2, 3, 10, 40, 2, 2, 7, 0, 31, 10, 2, 7, 7, 33, 0, 1, 1, 0 }
+
+; CH1
+A T162 V108 p3 @0 o4 g1 f+1 g1 f+1 g1 f+1 g1 f+1 g1 f+1 g1 f+1 g1 f+1 g1 r16 f+2.& f+8.
+A r16 g2.& g8. r16 f+2.& f+8. r16 g1 f+1 g1 f+1 g1 f+1 o2 a1& a1& a1& a1& a1& a1& a1& a1
+A o4 g1 f+1 g1 f+1 g1 f+1 r16 g2.& g8. r16 f+16
+
+; CH2
+B T162 V108 p3 @1 o2 a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a2.& a8 r2
+B r16 @2 o3 b16 r16 o4 d16 r16 f16 r16 a8. r16 g+1& g+1& g+1 r1 r1 r1 r1 r1 @3 b16 o5 d16
+B c+16 c16 @4 o4 b16 o5 d16 c+16 c16 @5 o4 b16 o5 d16 c+16 c16 @6 o4 b16 o5 d16 c+16 c16
+B @7 o4 b16 o5 d16 c+16 c16 @8 o4 b16 o5 d16 c+16 c16 @9 o4 b16 o5 d16 c+16 c16 @10 o4
+B b16 o5 d16 c+16 c16 @11 o4 b16 o5 d16 c+16 c16 @10 o4 b16 o5 d16 c+16 c16 @9 o4 b16 o5
+B d16 c+16 c16 @8 o4 b16 o5 d16 c+16 c16 @7 o4 b16 o5 d16 c+16 c16 @6 o4 b16 o5 d16 c+16
+B c16 @5 o4 b16 o5 d16 c+16 c16 @4 o4 b16 o5 d16 c+16 c16 @3 o4 b16 o5 d16 c+16 c16 @4 o4
+B b16 o5 d16 c+16 c16 @5 o4 b16 o5 d16 c+16 c16 @6 o4 b16 o5 d16 c+16 c16 @7 o4 b16 o5
+B d16 c+16 c16 @8 o4 b16 o5 d16 c+16 c16 @9 o4 b16 o5 d16 c+16 c16 @10 o4 b16 o5 d16 c+16
+B c16 @11 o4 b16 o5 d16 c+16 c16 @10 o4 b16 o5 d16 c+16 c16 @9 o4 b16 o5 d16 c+16 c16 @8
+B o4 b16 o5 d16 c+16 c16 @7 o4 b16 o5 d16 c+16 c16 @6 o4 b16 o5 d16 c+16 c16 @5 o4 b16 o5
+B d16 c+16 c16 @4 o4 b16 o5 d16 c+16 r16 @1 o2 a1& a1& a1& a1& a1& a1& a1& a16
+
+; CH3
+C T162 V108 p3 r1 r1 r1 r1 r1 r1 r1 r4. @2 o2 a8 o3 e8 a8 o4 e4 d+1& d+1& d+1& d+4. d+8
+C e8 o3 b8 a+4 a1& a1& a1& a4. r16 o2 a16 r16 o3 e16 r16 a16 r16 o4 e8. r16 d+1& d+1& d+1
+C r4. d+8 e8 o3 b8 a+4 o4 e1& e2.& e8 f+16 e16 d+1& d+2.& d+8 r8 @12 o2 a8 a2.& a8 a8
+C a2.& a8 a8 a2.& a8 a8 a2.& a8 a8 a2.& a8 a8 a2.& a8 a8 a2.& a8 a8 a2.& a8 r1 r1 r1 r1
+C r1 r1 r1 r16
+
+; SSG1
+G T162 P1 v6 o0 a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1&
+G a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a8
+
+; SSG2
+H T162 P1 v6 o0 a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1&
+H a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a1& a8
+
+; SSG3
+I T162 P1 v5 o2 g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8
+I g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8
+I f+2.& f+8 r8 g2.& g8. r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8
+I g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8 o0 a1& a1& a1& a1& a1& a1& a1& a2.& a8
+I r8 o2 g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8 g2.& g8 r8 f+2.& f+8 r8. g2.& g8
+I r8

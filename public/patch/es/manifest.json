@@ -1,0 +1,8776 @@
+{
+ "format": "kizuato-re-patch/1",
+ "game": "GitenMegaten",
+ "lang": "es",
+ "version": "2026.11.03",
+ "created": "2026-11-03T10:19:30.080Z",
+ "title": "Giten Megami Tensei: Tokyo Mokushiroku — traducción al español",
+ "requires": "your own copy of Giten Megami Tensei: Tokyo Mokushiroku (ASCII / Atlus, April 1997, PC-98 retail release), installed on a PC-98 hard-disk image (.hdi / .nhd) with the DDS98 folder, unmodified: DDS98.EXE 480,710 bytes, CRC32 2E4FA3C2. On a fast emulator limit the CPU to about 50 MHz: map and battle speed follow the CPU clock",
+ "credits": [
+  "Giten Megami Tensei EN",
+  "Original game (c) 1997 Atlus / ASCII / Fumito Nishitani / SHIPS",
+  "Made with Kizuato Studio"
+ ],
+ "files": [
+  {
+   "path": "DDS98/DDS98.EXE",
+   "patch": "DDS98_DDS98.EXE.bps",
+   "source": {
+    "size": 480710,
+    "crc32": "2e4fa3c2"
+   },
+   "target": {
+    "size": 480710,
+    "crc32": "e7e56466"
+   }
+  },
+  {
+   "path": "DDS98/ET0000.BIN",
+   "patch": "DDS98_ET0000.BIN.bps",
+   "source": {
+    "size": 2690,
+    "crc32": "e6639a58"
+   },
+   "target": {
+    "size": 2690,
+    "crc32": "7bbdddfe"
+   }
+  },
+  {
+   "path": "DDS98/ET0001.BIN",
+   "patch": "DDS98_ET0001.BIN.bps",
+   "source": {
+    "size": 59651,
+    "crc32": "fcc2c1f6"
+   },
+   "target": {
+    "size": 59651,
+    "crc32": "3ab72c18"
+   }
+  },
+  {
+   "path": "DDS98/ET0004.BIN",
+   "patch": "DDS98_ET0004.BIN.bps",
+   "source": {
+    "size": 18418,
+    "crc32": "f944b1af"
+   },
+   "target": {
+    "size": 18418,
+    "crc32": "910c871d"
+   }
+  },
+  {
+   "path": "DDS98/ET000D.BIN",
+   "patch": "DDS98_ET000D.BIN.bps",
+   "source": {
+    "size": 4694,
+    "crc32": "af36ca00"
+   },
+   "target": {
+    "size": 4694,
+    "crc32": "1ed58d13"
+   }
+  },
+  {
+   "path": "DDS98/ET0010.BIN",
+   "patch": "DDS98_ET0010.BIN.bps",
+   "source": {
+    "size": 2730,
+    "crc32": "114d5fb5"
+   },
+   "target": {
+    "size": 2730,
+    "crc32": "05ead4e8"
+   }
+  },
+  {
+   "path": "DDS98/ET0101.BIN",
+   "patch": "DDS98_ET0101.BIN.bps",
+   "source": {
+    "size": 590,
+    "crc32": "ea0df8f6"
+   },
+   "target": {
+    "size": 590,
+    "crc32": "116a416d"
+   }
+  },
+  {
+   "path": "DDS98/ID009B.BIN",
+   "patch": "DDS98_ID009B.BIN.bps",
+   "source": {
+    "size": 778,
+    "crc32": "1f686824"
+   },
+   "target": {
+    "size": 778,
+    "crc32": "b0e9f1a2"
+   }
+  },
+  {
+   "path": "DDS98/ID009C.BIN",
+   "patch": "DDS98_ID009C.BIN.bps",
+   "source": {
+    "size": 778,
+    "crc32": "1f686824"
+   },
+   "target": {
+    "size": 778,
+    "crc32": "c683f888"
+   }
+  },
+  {
+   "path": "DDS98/M0000.BIN",
+   "patch": "DDS98_M0000.BIN.bps",
+   "source": {
+    "size": 6003,
+    "crc32": "71e41188"
+   },
+   "target": {
+    "size": 6003,
+    "crc32": "1c5a5cbb"
+   }
+  },
+  {
+   "path": "DDS98/M0001.BIN",
+   "patch": "DDS98_M0001.BIN.bps",
+   "source": {
+    "size": 860,
+    "crc32": "c8f62343"
+   },
+   "target": {
+    "size": 860,
+    "crc32": "4ae237d8"
+   }
+  },
+  {
+   "path": "DDS98/M0002.BIN",
+   "patch": "DDS98_M0002.BIN.bps",
+   "source": {
+    "size": 290,
+    "crc32": "d75a02ca"
+   },
+   "target": {
+    "size": 290,
+    "crc32": "8306c34d"
+   }
+  },
+  {
+   "path": "DDS98/M0003.BIN",
+   "patch": "DDS98_M0003.BIN.bps",
+   "source": {
+    "size": 660,
+    "crc32": "c5dea730"
+   },
+   "target": {
+    "size": 660,
+    "crc32": "9bd7bb09"
+   }
+  },
+  {
+   "path": "DDS98/M0004.BIN",
+   "patch": "DDS98_M0004.BIN.bps",
+   "source": {
+    "size": 5741,
+    "crc32": "00f6e802"
+   },
+   "target": {
+    "size": 5741,
+    "crc32": "6a15ce6b"
+   }
+  },
+  {
+   "path": "DDS98/M0006.BIN",
+   "patch": "DDS98_M0006.BIN.bps",
+   "source": {
+    "size": 2494,
+    "crc32": "541edfc1"
+   },
+   "target": {
+    "size": 2494,
+    "crc32": "1871f146"
+   }
+  },
+  {
+   "path": "DDS98/M0007.BIN",
+   "patch": "DDS98_M0007.BIN.bps",
+   "source": {
+    "size": 607,
+    "crc32": "785bd517"
+   },
+   "target": {
+    "size": 607,
+    "crc32": "940d8084"
+   }
+  },
+  {
+   "path": "DDS98/M0008.BIN",
+   "patch": "DDS98_M0008.BIN.bps",
+   "source": {
+    "size": 1097,
+    "crc32": "33c042c4"
+   },
+   "target": {
+    "size": 1097,
+    "crc32": "413ca945"
+   }
+  },
+  {
+   "path": "DDS98/M0009.BIN",
+   "patch": "DDS98_M0009.BIN.bps",
+   "source": {
+    "size": 9696,
+    "crc32": "a8bb9517"
+   },
+   "target": {
+    "size": 9696,
+    "crc32": "d87ad0b4"
+   }
+  },
+  {
+   "path": "DDS98/M000A.BIN",
+   "patch": "DDS98_M000A.BIN.bps",
+   "source": {
+    "size": 3366,
+    "crc32": "1c21c4c0"
+   },
+   "target": {
+    "size": 3366,
+    "crc32": "11ad7bcd"
+   }
+  },
+  {
+   "path": "DDS98/M000B.BIN",
+   "patch": "DDS98_M000B.BIN.bps",
+   "source": {
+    "size": 1389,
+    "crc32": "beef8a7c"
+   },
+   "target": {
+    "size": 1389,
+    "crc32": "cc4f38b1"
+   }
+  },
+  {
+   "path": "DDS98/M000C.BIN",
+   "patch": "DDS98_M000C.BIN.bps",
+   "source": {
+    "size": 806,
+    "crc32": "517cb6fb"
+   },
+   "target": {
+    "size": 806,
+    "crc32": "f583124e"
+   }
+  },
+  {
+   "path": "DDS98/M000D.BIN",
+   "patch": "DDS98_M000D.BIN.bps",
+   "source": {
+    "size": 2384,
+    "crc32": "6c85c700"
+   },
+   "target": {
+    "size": 2384,
+    "crc32": "d3785179"
+   }
+  },
+  {
+   "path": "DDS98/M000E.BIN",
+   "patch": "DDS98_M000E.BIN.bps",
+   "source": {
+    "size": 1741,
+    "crc32": "70279f16"
+   },
+   "target": {
+    "size": 1741,
+    "crc32": "a157eaca"
+   }
+  },
+  {
+   "path": "DDS98/M000F.BIN",
+   "patch": "DDS98_M000F.BIN.bps",
+   "source": {
+    "size": 1812,
+    "crc32": "a67f2d44"
+   },
+   "target": {
+    "size": 1812,
+    "crc32": "996427c0"
+   }
+  },
+  {
+   "path": "DDS98/M0010.BIN",
+   "patch": "DDS98_M0010.BIN.bps",
+   "source": {
+    "size": 5553,
+    "crc32": "20d99292"
+   },
+   "target": {
+    "size": 5553,
+    "crc32": "82abff80"
+   }
+  },
+  {
+   "path": "DDS98/M0011.BIN",
+   "patch": "DDS98_M0011.BIN.bps",
+   "source": {
+    "size": 3036,
+    "crc32": "4f82cdf0"
+   },
+   "target": {
+    "size": 3036,
+    "crc32": "27270351"
+   }
+  },
+  {
+   "path": "DDS98/M0012.BIN",
+   "patch": "DDS98_M0012.BIN.bps",
+   "source": {
+    "size": 6609,
+    "crc32": "b7a30dc5"
+   },
+   "target": {
+    "size": 6609,
+    "crc32": "639156e9"
+   }
+  },
+  {
+   "path": "DDS98/M0013.BIN",
+   "patch": "DDS98_M0013.BIN.bps",
+   "source": {
+    "size": 6560,
+    "crc32": "1173bb60"
+   },
+   "target": {
+    "size": 6560,
+    "crc32": "1b5c940b"
+   }
+  },
+  {
+   "path": "DDS98/M0014.BIN",
+   "patch": "DDS98_M0014.BIN.bps",
+   "source": {
+    "size": 2539,
+    "crc32": "88f8f643"
+   },
+   "target": {
+    "size": 2539,
+    "crc32": "53361b13"
+   }
+  },
+  {
+   "path": "DDS98/M0015.BIN",
+   "patch": "DDS98_M0015.BIN.bps",
+   "source": {
+    "size": 2185,
+    "crc32": "38415dd7"
+   },
+   "target": {
+    "size": 2185,
+    "crc32": "67c59760"
+   }
+  },
+  {
+   "path": "DDS98/M0016.BIN",
+   "patch": "DDS98_M0016.BIN.bps",
+   "source": {
+    "size": 6283,
+    "crc32": "9bfd6010"
+   },
+   "target": {
+    "size": 6283,
+    "crc32": "f2200e4b"
+   }
+  },
+  {
+   "path": "DDS98/M0017.BIN",
+   "patch": "DDS98_M0017.BIN.bps",
+   "source": {
+    "size": 4263,
+    "crc32": "366a212c"
+   },
+   "target": {
+    "size": 4263,
+    "crc32": "33613b2c"
+   }
+  },
+  {
+   "path": "DDS98/M0018.BIN",
+   "patch": "DDS98_M0018.BIN.bps",
+   "source": {
+    "size": 3160,
+    "crc32": "91b7fee0"
+   },
+   "target": {
+    "size": 3160,
+    "crc32": "a528f94d"
+   }
+  },
+  {
+   "path": "DDS98/M0019.BIN",
+   "patch": "DDS98_M0019.BIN.bps",
+   "source": {
+    "size": 1851,
+    "crc32": "24166559"
+   },
+   "target": {
+    "size": 1851,
+    "crc32": "29613f86"
+   }
+  },
+  {
+   "path": "DDS98/M001A.BIN",
+   "patch": "DDS98_M001A.BIN.bps",
+   "source": {
+    "size": 2054,
+    "crc32": "73a0f21b"
+   },
+   "target": {
+    "size": 2054,
+    "crc32": "4883e534"
+   }
+  },
+  {
+   "path": "DDS98/M001B.BIN",
+   "patch": "DDS98_M001B.BIN.bps",
+   "source": {
+    "size": 1689,
+    "crc32": "8bf9df9a"
+   },
+   "target": {
+    "size": 1689,
+    "crc32": "cdf73c3d"
+   }
+  },
+  {
+   "path": "DDS98/M001C.BIN",
+   "patch": "DDS98_M001C.BIN.bps",
+   "source": {
+    "size": 1332,
+    "crc32": "b5724c6d"
+   },
+   "target": {
+    "size": 1332,
+    "crc32": "2bedc7b1"
+   }
+  },
+  {
+   "path": "DDS98/M001D.BIN",
+   "patch": "DDS98_M001D.BIN.bps",
+   "source": {
+    "size": 3631,
+    "crc32": "440eca1c"
+   },
+   "target": {
+    "size": 3631,
+    "crc32": "61d55c5d"
+   }
+  },
+  {
+   "path": "DDS98/M001E.BIN",
+   "patch": "DDS98_M001E.BIN.bps",
+   "source": {
+    "size": 1829,
+    "crc32": "764c1059"
+   },
+   "target": {
+    "size": 1829,
+    "crc32": "27d1706c"
+   }
+  },
+  {
+   "path": "DDS98/M001F.BIN",
+   "patch": "DDS98_M001F.BIN.bps",
+   "source": {
+    "size": 1676,
+    "crc32": "a612013b"
+   },
+   "target": {
+    "size": 1676,
+    "crc32": "40810918"
+   }
+  },
+  {
+   "path": "DDS98/M0020.BIN",
+   "patch": "DDS98_M0020.BIN.bps",
+   "source": {
+    "size": 2402,
+    "crc32": "e616663f"
+   },
+   "target": {
+    "size": 2402,
+    "crc32": "da160a22"
+   }
+  },
+  {
+   "path": "DDS98/M0021.BIN",
+   "patch": "DDS98_M0021.BIN.bps",
+   "source": {
+    "size": 1323,
+    "crc32": "5e0d7ac7"
+   },
+   "target": {
+    "size": 1323,
+    "crc32": "31b2fff8"
+   }
+  },
+  {
+   "path": "DDS98/M0022.BIN",
+   "patch": "DDS98_M0022.BIN.bps",
+   "source": {
+    "size": 1799,
+    "crc32": "2518c710"
+   },
+   "target": {
+    "size": 1799,
+    "crc32": "a0d3cd25"
+   }
+  },
+  {
+   "path": "DDS98/M0023.BIN",
+   "patch": "DDS98_M0023.BIN.bps",
+   "source": {
+    "size": 649,
+    "crc32": "302995e3"
+   },
+   "target": {
+    "size": 649,
+    "crc32": "5fd768ad"
+   }
+  },
+  {
+   "path": "DDS98/M0024.BIN",
+   "patch": "DDS98_M0024.BIN.bps",
+   "source": {
+    "size": 1118,
+    "crc32": "41039b48"
+   },
+   "target": {
+    "size": 1118,
+    "crc32": "4c10a990"
+   }
+  },
+  {
+   "path": "DDS98/M0025.BIN",
+   "patch": "DDS98_M0025.BIN.bps",
+   "source": {
+    "size": 2317,
+    "crc32": "a0c969d3"
+   },
+   "target": {
+    "size": 2317,
+    "crc32": "683af622"
+   }
+  },
+  {
+   "path": "DDS98/M0026.BIN",
+   "patch": "DDS98_M0026.BIN.bps",
+   "source": {
+    "size": 1255,
+    "crc32": "21ecfbe0"
+   },
+   "target": {
+    "size": 1255,
+    "crc32": "24446170"
+   }
+  },
+  {
+   "path": "DDS98/M0027.BIN",
+   "patch": "DDS98_M0027.BIN.bps",
+   "source": {
+    "size": 1039,
+    "crc32": "5b925d77"
+   },
+   "target": {
+    "size": 1039,
+    "crc32": "33560f28"
+   }
+  },
+  {
+   "path": "DDS98/M0028.BIN",
+   "patch": "DDS98_M0028.BIN.bps",
+   "source": {
+    "size": 2565,
+    "crc32": "26d8eea9"
+   },
+   "target": {
+    "size": 2565,
+    "crc32": "8b53aeba"
+   }
+  },
+  {
+   "path": "DDS98/M0029.BIN",
+   "patch": "DDS98_M0029.BIN.bps",
+   "source": {
+    "size": 2319,
+    "crc32": "fa0b169c"
+   },
+   "target": {
+    "size": 2319,
+    "crc32": "66eaff23"
+   }
+  },
+  {
+   "path": "DDS98/M002A.BIN",
+   "patch": "DDS98_M002A.BIN.bps",
+   "source": {
+    "size": 2460,
+    "crc32": "ab9f8de2"
+   },
+   "target": {
+    "size": 2460,
+    "crc32": "d07b43e2"
+   }
+  },
+  {
+   "path": "DDS98/M002B.BIN",
+   "patch": "DDS98_M002B.BIN.bps",
+   "source": {
+    "size": 2084,
+    "crc32": "12b8d1c4"
+   },
+   "target": {
+    "size": 2084,
+    "crc32": "df93349d"
+   }
+  },
+  {
+   "path": "DDS98/M002C.BIN",
+   "patch": "DDS98_M002C.BIN.bps",
+   "source": {
+    "size": 1349,
+    "crc32": "208fe37c"
+   },
+   "target": {
+    "size": 1349,
+    "crc32": "dae13d29"
+   }
+  },
+  {
+   "path": "DDS98/M002D.BIN",
+   "patch": "DDS98_M002D.BIN.bps",
+   "source": {
+    "size": 2215,
+    "crc32": "c6ae9781"
+   },
+   "target": {
+    "size": 2215,
+    "crc32": "c1408761"
+   }
+  },
+  {
+   "path": "DDS98/M002E.BIN",
+   "patch": "DDS98_M002E.BIN.bps",
+   "source": {
+    "size": 1375,
+    "crc32": "c6599017"
+   },
+   "target": {
+    "size": 1375,
+    "crc32": "76161476"
+   }
+  },
+  {
+   "path": "DDS98/M002F.BIN",
+   "patch": "DDS98_M002F.BIN.bps",
+   "source": {
+    "size": 1597,
+    "crc32": "9b6a1bff"
+   },
+   "target": {
+    "size": 1597,
+    "crc32": "5783451d"
+   }
+  },
+  {
+   "path": "DDS98/M0030.BIN",
+   "patch": "DDS98_M0030.BIN.bps",
+   "source": {
+    "size": 3137,
+    "crc32": "39dc0116"
+   },
+   "target": {
+    "size": 3137,
+    "crc32": "abf4649a"
+   }
+  },
+  {
+   "path": "DDS98/M0031.BIN",
+   "patch": "DDS98_M0031.BIN.bps",
+   "source": {
+    "size": 388,
+    "crc32": "62609238"
+   },
+   "target": {
+    "size": 388,
+    "crc32": "38be2701"
+   }
+  },
+  {
+   "path": "DDS98/M0032.BIN",
+   "patch": "DDS98_M0032.BIN.bps",
+   "source": {
+    "size": 2149,
+    "crc32": "827294c7"
+   },
+   "target": {
+    "size": 2149,
+    "crc32": "cc17e40d"
+   }
+  },
+  {
+   "path": "DDS98/M0033.BIN",
+   "patch": "DDS98_M0033.BIN.bps",
+   "source": {
+    "size": 1809,
+    "crc32": "2e438a2d"
+   },
+   "target": {
+    "size": 1809,
+    "crc32": "2c8a3e12"
+   }
+  },
+  {
+   "path": "DDS98/M0034.BIN",
+   "patch": "DDS98_M0034.BIN.bps",
+   "source": {
+    "size": 5488,
+    "crc32": "608706ec"
+   },
+   "target": {
+    "size": 5488,
+    "crc32": "29421070"
+   }
+  },
+  {
+   "path": "DDS98/M0035.BIN",
+   "patch": "DDS98_M0035.BIN.bps",
+   "source": {
+    "size": 5139,
+    "crc32": "a9eb3ea5"
+   },
+   "target": {
+    "size": 5139,
+    "crc32": "1e887dd1"
+   }
+  },
+  {
+   "path": "DDS98/M0036.BIN",
+   "patch": "DDS98_M0036.BIN.bps",
+   "source": {
+    "size": 1119,
+    "crc32": "1813f085"
+   },
+   "target": {
+    "size": 1119,
+    "crc32": "6ec9fdc6"
+   }
+  },
+  {
+   "path": "DDS98/M0037.BIN",
+   "patch": "DDS98_M0037.BIN.bps",
+   "source": {
+    "size": 1398,
+    "crc32": "757d55df"
+   },
+   "target": {
+    "size": 1398,
+    "crc32": "af24e804"
+   }
+  },
+  {
+   "path": "DDS98/M0038.BIN",
+   "patch": "DDS98_M0038.BIN.bps",
+   "source": {
+    "size": 1502,
+    "crc32": "f9fadbba"
+   },
+   "target": {
+    "size": 1502,
+    "crc32": "827198fb"
+   }
+  },
+  {
+   "path": "DDS98/M0039.BIN",
+   "patch": "DDS98_M0039.BIN.bps",
+   "source": {
+    "size": 424,
+    "crc32": "440c3a0f"
+   },
+   "target": {
+    "size": 424,
+    "crc32": "c5d79bde"
+   }
+  },
+  {
+   "path": "DDS98/M003A.BIN",
+   "patch": "DDS98_M003A.BIN.bps",
+   "source": {
+    "size": 627,
+    "crc32": "5ee4c1f2"
+   },
+   "target": {
+    "size": 627,
+    "crc32": "3663857f"
+   }
+  },
+  {
+   "path": "DDS98/M003B.BIN",
+   "patch": "DDS98_M003B.BIN.bps",
+   "source": {
+    "size": 541,
+    "crc32": "de925307"
+   },
+   "target": {
+    "size": 541,
+    "crc32": "2e587a83"
+   }
+  },
+  {
+   "path": "DDS98/M003C.BIN",
+   "patch": "DDS98_M003C.BIN.bps",
+   "source": {
+    "size": 948,
+    "crc32": "187bf4b8"
+   },
+   "target": {
+    "size": 948,
+    "crc32": "dee01e40"
+   }
+  },
+  {
+   "path": "DDS98/M003D.BIN",
+   "patch": "DDS98_M003D.BIN.bps",
+   "source": {
+    "size": 837,
+    "crc32": "98ca499b"
+   },
+   "target": {
+    "size": 837,
+    "crc32": "221fd0a3"
+   }
+  },
+  {
+   "path": "DDS98/M003E.BIN",
+   "patch": "DDS98_M003E.BIN.bps",
+   "source": {
+    "size": 681,
+    "crc32": "6f1e87f7"
+   },
+   "target": {
+    "size": 681,
+    "crc32": "613954e3"
+   }
+  },
+  {
+   "path": "DDS98/M003F.BIN",
+   "patch": "DDS98_M003F.BIN.bps",
+   "source": {
+    "size": 1004,
+    "crc32": "a10a0e5d"
+   },
+   "target": {
+    "size": 1004,
+    "crc32": "ee86c1cf"
+   }
+  },
+  {
+   "path": "DDS98/M0040.BIN",
+   "patch": "DDS98_M0040.BIN.bps",
+   "source": {
+    "size": 501,
+    "crc32": "acacd187"
+   },
+   "target": {
+    "size": 501,
+    "crc32": "e5051dd6"
+   }
+  },
+  {
+   "path": "DDS98/M0041.BIN",
+   "patch": "DDS98_M0041.BIN.bps",
+   "source": {
+    "size": 305,
+    "crc32": "a0f90ada"
+   },
+   "target": {
+    "size": 305,
+    "crc32": "02c0c88a"
+   }
+  },
+  {
+   "path": "DDS98/M0042.BIN",
+   "patch": "DDS98_M0042.BIN.bps",
+   "source": {
+    "size": 792,
+    "crc32": "81a69810"
+   },
+   "target": {
+    "size": 792,
+    "crc32": "b4e3b596"
+   }
+  },
+  {
+   "path": "DDS98/M0043.BIN",
+   "patch": "DDS98_M0043.BIN.bps",
+   "source": {
+    "size": 986,
+    "crc32": "26ad3e67"
+   },
+   "target": {
+    "size": 986,
+    "crc32": "f4dad4fa"
+   }
+  },
+  {
+   "path": "DDS98/M0044.BIN",
+   "patch": "DDS98_M0044.BIN.bps",
+   "source": {
+    "size": 378,
+    "crc32": "c1fb0d01"
+   },
+   "target": {
+    "size": 378,
+    "crc32": "a0f4b24b"
+   }
+  },
+  {
+   "path": "DDS98/M0045.BIN",
+   "patch": "DDS98_M0045.BIN.bps",
+   "source": {
+    "size": 675,
+    "crc32": "e9e9ed5c"
+   },
+   "target": {
+    "size": 675,
+    "crc32": "4c339aa1"
+   }
+  },
+  {
+   "path": "DDS98/M0046.BIN",
+   "patch": "DDS98_M0046.BIN.bps",
+   "source": {
+    "size": 371,
+    "crc32": "ed4a8bce"
+   },
+   "target": {
+    "size": 371,
+    "crc32": "2d4833fc"
+   }
+  },
+  {
+   "path": "DDS98/M0047.BIN",
+   "patch": "DDS98_M0047.BIN.bps",
+   "source": {
+    "size": 371,
+    "crc32": "8f606443"
+   },
+   "target": {
+    "size": 371,
+    "crc32": "47d6f9b6"
+   }
+  },
+  {
+   "path": "DDS98/M0048.BIN",
+   "patch": "DDS98_M0048.BIN.bps",
+   "source": {
+    "size": 291,
+    "crc32": "f14e81d1"
+   },
+   "target": {
+    "size": 291,
+    "crc32": "6db8e9d8"
+   }
+  },
+  {
+   "path": "DDS98/M0049.BIN",
+   "patch": "DDS98_M0049.BIN.bps",
+   "source": {
+    "size": 254,
+    "crc32": "c524d948"
+   },
+   "target": {
+    "size": 254,
+    "crc32": "d2a85c13"
+   }
+  },
+  {
+   "path": "DDS98/M004A.BIN",
+   "patch": "DDS98_M004A.BIN.bps",
+   "source": {
+    "size": 229,
+    "crc32": "8cfdb6e2"
+   },
+   "target": {
+    "size": 229,
+    "crc32": "52b5eacf"
+   }
+  },
+  {
+   "path": "DDS98/M004B.BIN",
+   "patch": "DDS98_M004B.BIN.bps",
+   "source": {
+    "size": 254,
+    "crc32": "5e72b7c5"
+   },
+   "target": {
+    "size": 254,
+    "crc32": "45b2c072"
+   }
+  },
+  {
+   "path": "DDS98/M004C.BIN",
+   "patch": "DDS98_M004C.BIN.bps",
+   "source": {
+    "size": 254,
+    "crc32": "52bb1ee1"
+   },
+   "target": {
+    "size": 254,
+    "crc32": "637d0221"
+   }
+  },
+  {
+   "path": "DDS98/M004D.BIN",
+   "patch": "DDS98_M004D.BIN.bps",
+   "source": {
+    "size": 254,
+    "crc32": "9a35e0f1"
+   },
+   "target": {
+    "size": 254,
+    "crc32": "98917be9"
+   }
+  },
+  {
+   "path": "DDS98/M004E.BIN",
+   "patch": "DDS98_M004E.BIN.bps",
+   "source": {
+    "size": 1072,
+    "crc32": "7f29bfe7"
+   },
+   "target": {
+    "size": 1072,
+    "crc32": "7325af07"
+   }
+  },
+  {
+   "path": "DDS98/M004F.BIN",
+   "patch": "DDS98_M004F.BIN.bps",
+   "source": {
+    "size": 295,
+    "crc32": "4a214f6b"
+   },
+   "target": {
+    "size": 295,
+    "crc32": "497b1b29"
+   }
+  },
+  {
+   "path": "DDS98/M0050.BIN",
+   "patch": "DDS98_M0050.BIN.bps",
+   "source": {
+    "size": 370,
+    "crc32": "082e812e"
+   },
+   "target": {
+    "size": 370,
+    "crc32": "b25f09f3"
+   }
+  },
+  {
+   "path": "DDS98/M0051.BIN",
+   "patch": "DDS98_M0051.BIN.bps",
+   "source": {
+    "size": 1718,
+    "crc32": "bf07efd6"
+   },
+   "target": {
+    "size": 1718,
+    "crc32": "33d3b46e"
+   }
+  },
+  {
+   "path": "DDS98/M0052.BIN",
+   "patch": "DDS98_M0052.BIN.bps",
+   "source": {
+    "size": 1109,
+    "crc32": "a55460f8"
+   },
+   "target": {
+    "size": 1109,
+    "crc32": "31c1487c"
+   }
+  },
+  {
+   "path": "DDS98/M0053.BIN",
+   "patch": "DDS98_M0053.BIN.bps",
+   "source": {
+    "size": 1128,
+    "crc32": "0da1f48a"
+   },
+   "target": {
+    "size": 1128,
+    "crc32": "44904ac6"
+   }
+  },
+  {
+   "path": "DDS98/M0055.BIN",
+   "patch": "DDS98_M0055.BIN.bps",
+   "source": {
+    "size": 439,
+    "crc32": "0e5ca160"
+   },
+   "target": {
+    "size": 439,
+    "crc32": "bc104701"
+   }
+  },
+  {
+   "path": "DDS98/M0056.BIN",
+   "patch": "DDS98_M0056.BIN.bps",
+   "source": {
+    "size": 1273,
+    "crc32": "d19674c5"
+   },
+   "target": {
+    "size": 1273,
+    "crc32": "8d0ab5cd"
+   }
+  },
+  {
+   "path": "DDS98/M0081.BIN",
+   "patch": "DDS98_M0081.BIN.bps",
+   "source": {
+    "size": 3750,
+    "crc32": "beaf2465"
+   },
+   "target": {
+    "size": 3750,
+    "crc32": "de02fe5b"
+   }
+  },
+  {
+   "path": "DDS98/M0082.BIN",
+   "patch": "DDS98_M0082.BIN.bps",
+   "source": {
+    "size": 8654,
+    "crc32": "020bafd0"
+   },
+   "target": {
+    "size": 8654,
+    "crc32": "87720d30"
+   }
+  },
+  {
+   "path": "DDS98/M0083.BIN",
+   "patch": "DDS98_M0083.BIN.bps",
+   "source": {
+    "size": 3164,
+    "crc32": "b6c72060"
+   },
+   "target": {
+    "size": 3164,
+    "crc32": "6a4afc9c"
+   }
+  },
+  {
+   "path": "DDS98/M0084.BIN",
+   "patch": "DDS98_M0084.BIN.bps",
+   "source": {
+    "size": 7214,
+    "crc32": "b6962325"
+   },
+   "target": {
+    "size": 7214,
+    "crc32": "ac8e1d1b"
+   }
+  },
+  {
+   "path": "DDS98/M0085.BIN",
+   "patch": "DDS98_M0085.BIN.bps",
+   "source": {
+    "size": 5414,
+    "crc32": "7cc7ee12"
+   },
+   "target": {
+    "size": 5414,
+    "crc32": "a25c3006"
+   }
+  },
+  {
+   "path": "DDS98/M0086.BIN",
+   "patch": "DDS98_M0086.BIN.bps",
+   "source": {
+    "size": 890,
+    "crc32": "8004e5bd"
+   },
+   "target": {
+    "size": 890,
+    "crc32": "157c12c0"
+   }
+  },
+  {
+   "path": "DDS98/M0087.BIN",
+   "patch": "DDS98_M0087.BIN.bps",
+   "source": {
+    "size": 476,
+    "crc32": "9cfd04d1"
+   },
+   "target": {
+    "size": 476,
+    "crc32": "8b111b4b"
+   }
+  },
+  {
+   "path": "DDS98/M0088.BIN",
+   "patch": "DDS98_M0088.BIN.bps",
+   "source": {
+    "size": 1187,
+    "crc32": "e78a767f"
+   },
+   "target": {
+    "size": 1187,
+    "crc32": "f478da08"
+   }
+  },
+  {
+   "path": "DDS98/M0089.BIN",
+   "patch": "DDS98_M0089.BIN.bps",
+   "source": {
+    "size": 660,
+    "crc32": "5919af12"
+   },
+   "target": {
+    "size": 660,
+    "crc32": "4f94757a"
+   }
+  },
+  {
+   "path": "DDS98/M008A.BIN",
+   "patch": "DDS98_M008A.BIN.bps",
+   "source": {
+    "size": 4799,
+    "crc32": "22a11a0c"
+   },
+   "target": {
+    "size": 4799,
+    "crc32": "0475944f"
+   }
+  },
+  {
+   "path": "DDS98/M008B.BIN",
+   "patch": "DDS98_M008B.BIN.bps",
+   "source": {
+    "size": 1023,
+    "crc32": "b09a56b4"
+   },
+   "target": {
+    "size": 1023,
+    "crc32": "951b9953"
+   }
+  },
+  {
+   "path": "DDS98/M00FF.BIN",
+   "patch": "DDS98_M00FF.BIN.bps",
+   "source": {
+    "size": 219,
+    "crc32": "4ab6893c"
+   },
+   "target": {
+    "size": 219,
+    "crc32": "b16991fc"
+   }
+  },
+  {
+   "path": "DDS98/MS0000.BIN",
+   "patch": "DDS98_MS0000.BIN.bps",
+   "source": {
+    "size": 21067,
+    "crc32": "81cfb4f0"
+   },
+   "target": {
+    "size": 21067,
+    "crc32": "ef11ed8a"
+   }
+  },
+  {
+   "path": "DDS98/MS0001.BIN",
+   "patch": "DDS98_MS0001.BIN.bps",
+   "source": {
+    "size": 8561,
+    "crc32": "c853d19a"
+   },
+   "target": {
+    "size": 8561,
+    "crc32": "76ff0ffe"
+   }
+  },
+  {
+   "path": "DDS98/MS0002.BIN",
+   "patch": "DDS98_MS0002.BIN.bps",
+   "source": {
+    "size": 15663,
+    "crc32": "9c41e753"
+   },
+   "target": {
+    "size": 15663,
+    "crc32": "559a5a03"
+   }
+  },
+  {
+   "path": "DDS98/MS0003.BIN",
+   "patch": "DDS98_MS0003.BIN.bps",
+   "source": {
+    "size": 10006,
+    "crc32": "ee371960"
+   },
+   "target": {
+    "size": 10006,
+    "crc32": "f4cfde98"
+   }
+  },
+  {
+   "path": "DDS98/MS0004.BIN",
+   "patch": "DDS98_MS0004.BIN.bps",
+   "source": {
+    "size": 21881,
+    "crc32": "2fc5f293"
+   },
+   "target": {
+    "size": 21881,
+    "crc32": "3adc6599"
+   }
+  },
+  {
+   "path": "DDS98/MS0005.BIN",
+   "patch": "DDS98_MS0005.BIN.bps",
+   "source": {
+    "size": 17941,
+    "crc32": "a8c29b36"
+   },
+   "target": {
+    "size": 17941,
+    "crc32": "f3677502"
+   }
+  },
+  {
+   "path": "DDS98/MS0006.BIN",
+   "patch": "DDS98_MS0006.BIN.bps",
+   "source": {
+    "size": 25005,
+    "crc32": "ba489a30"
+   },
+   "target": {
+    "size": 25005,
+    "crc32": "79daea4f"
+   }
+  },
+  {
+   "path": "DDS98/MS0007.BIN",
+   "patch": "DDS98_MS0007.BIN.bps",
+   "source": {
+    "size": 30151,
+    "crc32": "fab364e9"
+   },
+   "target": {
+    "size": 30151,
+    "crc32": "403fdf1b"
+   }
+  },
+  {
+   "path": "DDS98/MS0008.BIN",
+   "patch": "DDS98_MS0008.BIN.bps",
+   "source": {
+    "size": 19689,
+    "crc32": "698e7819"
+   },
+   "target": {
+    "size": 19689,
+    "crc32": "7c484b9c"
+   }
+  },
+  {
+   "path": "DDS98/MS0009.BIN",
+   "patch": "DDS98_MS0009.BIN.bps",
+   "source": {
+    "size": 13141,
+    "crc32": "0d458f9b"
+   },
+   "target": {
+    "size": 13141,
+    "crc32": "39d6dbb3"
+   }
+  },
+  {
+   "path": "DDS98/MS000A.BIN",
+   "patch": "DDS98_MS000A.BIN.bps",
+   "source": {
+    "size": 1734,
+    "crc32": "1de70a14"
+   },
+   "target": {
+    "size": 1734,
+    "crc32": "79d26d64"
+   }
+  },
+  {
+   "path": "DDS98/MS000B.BIN",
+   "patch": "DDS98_MS000B.BIN.bps",
+   "source": {
+    "size": 1279,
+    "crc32": "d8e2137a"
+   },
+   "target": {
+    "size": 1279,
+    "crc32": "b5fcfe3c"
+   }
+  },
+  {
+   "path": "DDS98/MS000C.BIN",
+   "patch": "DDS98_MS000C.BIN.bps",
+   "source": {
+    "size": 15676,
+    "crc32": "f014893a"
+   },
+   "target": {
+    "size": 15676,
+    "crc32": "a5a6d226"
+   }
+  },
+  {
+   "path": "DDS98/MS000D.BIN",
+   "patch": "DDS98_MS000D.BIN.bps",
+   "source": {
+    "size": 18720,
+    "crc32": "0e4086e0"
+   },
+   "target": {
+    "size": 18720,
+    "crc32": "0465c7d8"
+   }
+  },
+  {
+   "path": "DDS98/MS000E.BIN",
+   "patch": "DDS98_MS000E.BIN.bps",
+   "source": {
+    "size": 22450,
+    "crc32": "f98f6802"
+   },
+   "target": {
+    "size": 22450,
+    "crc32": "45df1f76"
+   }
+  },
+  {
+   "path": "DDS98/MS000F.BIN",
+   "patch": "DDS98_MS000F.BIN.bps",
+   "source": {
+    "size": 15023,
+    "crc32": "217e990c"
+   },
+   "target": {
+    "size": 15023,
+    "crc32": "fe8c9325"
+   }
+  },
+  {
+   "path": "DDS98/MS0010.BIN",
+   "patch": "DDS98_MS0010.BIN.bps",
+   "source": {
+    "size": 17053,
+    "crc32": "1d522958"
+   },
+   "target": {
+    "size": 17053,
+    "crc32": "d6cc0867"
+   }
+  },
+  {
+   "path": "DDS98/MS0011.BIN",
+   "patch": "DDS98_MS0011.BIN.bps",
+   "source": {
+    "size": 19777,
+    "crc32": "ad689310"
+   },
+   "target": {
+    "size": 19777,
+    "crc32": "73be487f"
+   }
+  },
+  {
+   "path": "DDS98/MS0012.BIN",
+   "patch": "DDS98_MS0012.BIN.bps",
+   "source": {
+    "size": 15284,
+    "crc32": "76b1e277"
+   },
+   "target": {
+    "size": 15284,
+    "crc32": "77dc74a3"
+   }
+  },
+  {
+   "path": "DDS98/MS0013.BIN",
+   "patch": "DDS98_MS0013.BIN.bps",
+   "source": {
+    "size": 14742,
+    "crc32": "51e9254c"
+   },
+   "target": {
+    "size": 14742,
+    "crc32": "ad5660c5"
+   }
+  },
+  {
+   "path": "DDS98/MS0014.BIN",
+   "patch": "DDS98_MS0014.BIN.bps",
+   "source": {
+    "size": 11510,
+    "crc32": "850a01f8"
+   },
+   "target": {
+    "size": 11510,
+    "crc32": "a5ac37b5"
+   }
+  },
+  {
+   "path": "DDS98/MS0015.BIN",
+   "patch": "DDS98_MS0015.BIN.bps",
+   "source": {
+    "size": 17120,
+    "crc32": "31fb6197"
+   },
+   "target": {
+    "size": 17120,
+    "crc32": "c9653189"
+   }
+  },
+  {
+   "path": "DDS98/MS0016.BIN",
+   "patch": "DDS98_MS0016.BIN.bps",
+   "source": {
+    "size": 10034,
+    "crc32": "8c054051"
+   },
+   "target": {
+    "size": 10034,
+    "crc32": "a2cd395b"
+   }
+  },
+  {
+   "path": "DDS98/MS0017.BIN",
+   "patch": "DDS98_MS0017.BIN.bps",
+   "source": {
+    "size": 19808,
+    "crc32": "d5b41b3c"
+   },
+   "target": {
+    "size": 19808,
+    "crc32": "6b3a4459"
+   }
+  },
+  {
+   "path": "DDS98/MS0018.BIN",
+   "patch": "DDS98_MS0018.BIN.bps",
+   "source": {
+    "size": 15647,
+    "crc32": "464ee4ff"
+   },
+   "target": {
+    "size": 15647,
+    "crc32": "d7a2a1df"
+   }
+  },
+  {
+   "path": "DDS98/MS0019.BIN",
+   "patch": "DDS98_MS0019.BIN.bps",
+   "source": {
+    "size": 13824,
+    "crc32": "9d2d2d92"
+   },
+   "target": {
+    "size": 13824,
+    "crc32": "40f80880"
+   }
+  },
+  {
+   "path": "DDS98/MS001A.BIN",
+   "patch": "DDS98_MS001A.BIN.bps",
+   "source": {
+    "size": 9343,
+    "crc32": "a8c3d44a"
+   },
+   "target": {
+    "size": 9343,
+    "crc32": "82f0ae5e"
+   }
+  },
+  {
+   "path": "DDS98/MS001B.BIN",
+   "patch": "DDS98_MS001B.BIN.bps",
+   "source": {
+    "size": 14077,
+    "crc32": "184d3810"
+   },
+   "target": {
+    "size": 14077,
+    "crc32": "bf7f3aff"
+   }
+  },
+  {
+   "path": "DDS98/MS001C.BIN",
+   "patch": "DDS98_MS001C.BIN.bps",
+   "source": {
+    "size": 9958,
+    "crc32": "00284a5c"
+   },
+   "target": {
+    "size": 9958,
+    "crc32": "cb89491e"
+   }
+  },
+  {
+   "path": "DDS98/MS001D.BIN",
+   "patch": "DDS98_MS001D.BIN.bps",
+   "source": {
+    "size": 9943,
+    "crc32": "4163fc2d"
+   },
+   "target": {
+    "size": 9943,
+    "crc32": "0038271f"
+   }
+  },
+  {
+   "path": "DDS98/MS001E.BIN",
+   "patch": "DDS98_MS001E.BIN.bps",
+   "source": {
+    "size": 21400,
+    "crc32": "a0ab67e8"
+   },
+   "target": {
+    "size": 21400,
+    "crc32": "048857fc"
+   }
+  },
+  {
+   "path": "DDS98/MS001F.BIN",
+   "patch": "DDS98_MS001F.BIN.bps",
+   "source": {
+    "size": 18365,
+    "crc32": "daad3068"
+   },
+   "target": {
+    "size": 18365,
+    "crc32": "b2007d6d"
+   }
+  },
+  {
+   "path": "DDS98/MS0020.BIN",
+   "patch": "DDS98_MS0020.BIN.bps",
+   "source": {
+    "size": 18780,
+    "crc32": "caa1d120"
+   },
+   "target": {
+    "size": 18780,
+    "crc32": "69aeaa45"
+   }
+  },
+  {
+   "path": "DDS98/MS0021.BIN",
+   "patch": "DDS98_MS0021.BIN.bps",
+   "source": {
+    "size": 14492,
+    "crc32": "4269281b"
+   },
+   "target": {
+    "size": 14492,
+    "crc32": "0e1f76dc"
+   }
+  },
+  {
+   "path": "DDS98/MS0022.BIN",
+   "patch": "DDS98_MS0022.BIN.bps",
+   "source": {
+    "size": 25296,
+    "crc32": "351830b3"
+   },
+   "target": {
+    "size": 25296,
+    "crc32": "ba9ea1e6"
+   }
+  },
+  {
+   "path": "DDS98/MS0023.BIN",
+   "patch": "DDS98_MS0023.BIN.bps",
+   "source": {
+    "size": 7112,
+    "crc32": "47eec0ab"
+   },
+   "target": {
+    "size": 7112,
+    "crc32": "421f9c29"
+   }
+  },
+  {
+   "path": "DDS98/MS0024.BIN",
+   "patch": "DDS98_MS0024.BIN.bps",
+   "source": {
+    "size": 23496,
+    "crc32": "29a9cc77"
+   },
+   "target": {
+    "size": 23496,
+    "crc32": "d9d3ddf8"
+   }
+  },
+  {
+   "path": "DDS98/MS0025.BIN",
+   "patch": "DDS98_MS0025.BIN.bps",
+   "source": {
+    "size": 8867,
+    "crc32": "1fc366bd"
+   },
+   "target": {
+    "size": 8867,
+    "crc32": "42c7d4c2"
+   }
+  },
+  {
+   "path": "DDS98/MS0026.BIN",
+   "patch": "DDS98_MS0026.BIN.bps",
+   "source": {
+    "size": 13128,
+    "crc32": "5aa558d6"
+   },
+   "target": {
+    "size": 13128,
+    "crc32": "9a69170b"
+   }
+  },
+  {
+   "path": "DDS98/MS0027.BIN",
+   "patch": "DDS98_MS0027.BIN.bps",
+   "source": {
+    "size": 16071,
+    "crc32": "ba542c70"
+   },
+   "target": {
+    "size": 16071,
+    "crc32": "a10464e1"
+   }
+  },
+  {
+   "path": "DDS98/MS0028.BIN",
+   "patch": "DDS98_MS0028.BIN.bps",
+   "source": {
+    "size": 8113,
+    "crc32": "aa3c700f"
+   },
+   "target": {
+    "size": 8113,
+    "crc32": "8f5b87bf"
+   }
+  },
+  {
+   "path": "DDS98/MS0029.BIN",
+   "patch": "DDS98_MS0029.BIN.bps",
+   "source": {
+    "size": 17963,
+    "crc32": "53d4fbb3"
+   },
+   "target": {
+    "size": 17963,
+    "crc32": "4f32ad5c"
+   }
+  },
+  {
+   "path": "DDS98/MS002A.BIN",
+   "patch": "DDS98_MS002A.BIN.bps",
+   "source": {
+    "size": 2648,
+    "crc32": "fc882efb"
+   },
+   "target": {
+    "size": 2648,
+    "crc32": "82be5d26"
+   }
+  },
+  {
+   "path": "DDS98/MS002B.BIN",
+   "patch": "DDS98_MS002B.BIN.bps",
+   "source": {
+    "size": 16844,
+    "crc32": "72e19217"
+   },
+   "target": {
+    "size": 16844,
+    "crc32": "2a50adf4"
+   }
+  },
+  {
+   "path": "DDS98/MS002C.BIN",
+   "patch": "DDS98_MS002C.BIN.bps",
+   "source": {
+    "size": 8532,
+    "crc32": "417b2a67"
+   },
+   "target": {
+    "size": 8532,
+    "crc32": "04c5048f"
+   }
+  },
+  {
+   "path": "DDS98/MS002D.BIN",
+   "patch": "DDS98_MS002D.BIN.bps",
+   "source": {
+    "size": 305,
+    "crc32": "568ca034"
+   },
+   "target": {
+    "size": 305,
+    "crc32": "08b84e90"
+   }
+  },
+  {
+   "path": "DDS98/MS002E.BIN",
+   "patch": "DDS98_MS002E.BIN.bps",
+   "source": {
+    "size": 5627,
+    "crc32": "2e8f027c"
+   },
+   "target": {
+    "size": 5627,
+    "crc32": "4de8fbfb"
+   }
+  },
+  {
+   "path": "DDS98/MS0030.BIN",
+   "patch": "DDS98_MS0030.BIN.bps",
+   "source": {
+    "size": 35289,
+    "crc32": "24dcecc3"
+   },
+   "target": {
+    "size": 35289,
+    "crc32": "7098937d"
+   }
+  },
+  {
+   "path": "DDS98/MS0031.BIN",
+   "patch": "DDS98_MS0031.BIN.bps",
+   "source": {
+    "size": 8139,
+    "crc32": "8c82ace7"
+   },
+   "target": {
+    "size": 8139,
+    "crc32": "3b5caa4e"
+   }
+  },
+  {
+   "path": "DDS98/MS0032.BIN",
+   "patch": "DDS98_MS0032.BIN.bps",
+   "source": {
+    "size": 17408,
+    "crc32": "ac966226"
+   },
+   "target": {
+    "size": 17408,
+    "crc32": "acb41211"
+   }
+  },
+  {
+   "path": "DDS98/MS0033.BIN",
+   "patch": "DDS98_MS0033.BIN.bps",
+   "source": {
+    "size": 6228,
+    "crc32": "565710a1"
+   },
+   "target": {
+    "size": 6228,
+    "crc32": "d24d0bd5"
+   }
+  },
+  {
+   "path": "DDS98/MS0034.BIN",
+   "patch": "DDS98_MS0034.BIN.bps",
+   "source": {
+    "size": 14573,
+    "crc32": "d03988bc"
+   },
+   "target": {
+    "size": 14573,
+    "crc32": "051968ff"
+   }
+  },
+  {
+   "path": "DDS98/MS0035.BIN",
+   "patch": "DDS98_MS0035.BIN.bps",
+   "source": {
+    "size": 4285,
+    "crc32": "8970bdab"
+   },
+   "target": {
+    "size": 4285,
+    "crc32": "8d2be983"
+   }
+  },
+  {
+   "path": "DDS98/MS0036.BIN",
+   "patch": "DDS98_MS0036.BIN.bps",
+   "source": {
+    "size": 5721,
+    "crc32": "e1ad4504"
+   },
+   "target": {
+    "size": 5721,
+    "crc32": "5da008df"
+   }
+  },
+  {
+   "path": "DDS98/MS0037.BIN",
+   "patch": "DDS98_MS0037.BIN.bps",
+   "source": {
+    "size": 3045,
+    "crc32": "233e3a3a"
+   },
+   "target": {
+    "size": 3045,
+    "crc32": "b0cef205"
+   }
+  },
+  {
+   "path": "DDS98/MS0038.BIN",
+   "patch": "DDS98_MS0038.BIN.bps",
+   "source": {
+    "size": 3601,
+    "crc32": "3c7a34b9"
+   },
+   "target": {
+    "size": 3601,
+    "crc32": "45869248"
+   }
+  },
+  {
+   "path": "DDS98/MS0039.BIN",
+   "patch": "DDS98_MS0039.BIN.bps",
+   "source": {
+    "size": 4560,
+    "crc32": "d3a286b0"
+   },
+   "target": {
+    "size": 4560,
+    "crc32": "599bf588"
+   }
+  },
+  {
+   "path": "DDS98/MS003A.BIN",
+   "patch": "DDS98_MS003A.BIN.bps",
+   "source": {
+    "size": 10270,
+    "crc32": "80c7c6af"
+   },
+   "target": {
+    "size": 10270,
+    "crc32": "0103b4b2"
+   }
+  },
+  {
+   "path": "DDS98/MS003B.BIN",
+   "patch": "DDS98_MS003B.BIN.bps",
+   "source": {
+    "size": 23516,
+    "crc32": "97862c28"
+   },
+   "target": {
+    "size": 23516,
+    "crc32": "13089ebd"
+   }
+  },
+  {
+   "path": "DDS98/MS003C.BIN",
+   "patch": "DDS98_MS003C.BIN.bps",
+   "source": {
+    "size": 3405,
+    "crc32": "bf87115d"
+   },
+   "target": {
+    "size": 3405,
+    "crc32": "8d06010c"
+   }
+  },
+  {
+   "path": "DDS98/MS003D.BIN",
+   "patch": "DDS98_MS003D.BIN.bps",
+   "source": {
+    "size": 4183,
+    "crc32": "26d015c7"
+   },
+   "target": {
+    "size": 4183,
+    "crc32": "71d6670e"
+   }
+  },
+  {
+   "path": "DDS98/MS003E.BIN",
+   "patch": "DDS98_MS003E.BIN.bps",
+   "source": {
+    "size": 12361,
+    "crc32": "6a002847"
+   },
+   "target": {
+    "size": 12361,
+    "crc32": "58192b33"
+   }
+  },
+  {
+   "path": "DDS98/MS003F.BIN",
+   "patch": "DDS98_MS003F.BIN.bps",
+   "source": {
+    "size": 4896,
+    "crc32": "a089ca6b"
+   },
+   "target": {
+    "size": 4896,
+    "crc32": "b28e6929"
+   }
+  },
+  {
+   "path": "DDS98/MS0040.BIN",
+   "patch": "DDS98_MS0040.BIN.bps",
+   "source": {
+    "size": 3301,
+    "crc32": "3cae7d6a"
+   },
+   "target": {
+    "size": 3301,
+    "crc32": "dfe01a6b"
+   }
+  },
+  {
+   "path": "DDS98/MS0041.BIN",
+   "patch": "DDS98_MS0041.BIN.bps",
+   "source": {
+    "size": 233,
+    "crc32": "ec83192e"
+   },
+   "target": {
+    "size": 233,
+    "crc32": "560312ad"
+   }
+  },
+  {
+   "path": "DDS98/MS0042.BIN",
+   "patch": "DDS98_MS0042.BIN.bps",
+   "source": {
+    "size": 2044,
+    "crc32": "22e16a29"
+   },
+   "target": {
+    "size": 2044,
+    "crc32": "1b88b158"
+   }
+  },
+  {
+   "path": "DDS98/MS0043.BIN",
+   "patch": "DDS98_MS0043.BIN.bps",
+   "source": {
+    "size": 1724,
+    "crc32": "5d0a6257"
+   },
+   "target": {
+    "size": 1724,
+    "crc32": "b9599a77"
+   }
+  },
+  {
+   "path": "DDS98/MS0044.BIN",
+   "patch": "DDS98_MS0044.BIN.bps",
+   "source": {
+    "size": 2855,
+    "crc32": "f17ee9ec"
+   },
+   "target": {
+    "size": 2855,
+    "crc32": "3cd89156"
+   }
+  },
+  {
+   "path": "DDS98/MS0050.BIN",
+   "patch": "DDS98_MS0050.BIN.bps",
+   "source": {
+    "size": 8867,
+    "crc32": "989aaf82"
+   },
+   "target": {
+    "size": 8867,
+    "crc32": "91883501"
+   }
+  },
+  {
+   "path": "DDS98/MS0051.BIN",
+   "patch": "DDS98_MS0051.BIN.bps",
+   "source": {
+    "size": 10363,
+    "crc32": "6e0c537b"
+   },
+   "target": {
+    "size": 10363,
+    "crc32": "b593b993"
+   }
+  },
+  {
+   "path": "DDS98/MS0052.BIN",
+   "patch": "DDS98_MS0052.BIN.bps",
+   "source": {
+    "size": 13594,
+    "crc32": "d38ffd2d"
+   },
+   "target": {
+    "size": 13594,
+    "crc32": "19941c33"
+   }
+  },
+  {
+   "path": "DDS98/MS0053.BIN",
+   "patch": "DDS98_MS0053.BIN.bps",
+   "source": {
+    "size": 8107,
+    "crc32": "c7e4e957"
+   },
+   "target": {
+    "size": 8107,
+    "crc32": "b7c4818d"
+   }
+  },
+  {
+   "path": "DDS98/MS0054.BIN",
+   "patch": "DDS98_MS0054.BIN.bps",
+   "source": {
+    "size": 9598,
+    "crc32": "4fc8b114"
+   },
+   "target": {
+    "size": 9598,
+    "crc32": "20053325"
+   }
+  },
+  {
+   "path": "DDS98/MS0055.BIN",
+   "patch": "DDS98_MS0055.BIN.bps",
+   "source": {
+    "size": 6744,
+    "crc32": "dc237e04"
+   },
+   "target": {
+    "size": 6744,
+    "crc32": "791909ad"
+   }
+  },
+  {
+   "path": "DDS98/MS0056.BIN",
+   "patch": "DDS98_MS0056.BIN.bps",
+   "source": {
+    "size": 9792,
+    "crc32": "f53f630a"
+   },
+   "target": {
+    "size": 9792,
+    "crc32": "d9bf6b0a"
+   }
+  },
+  {
+   "path": "DDS98/MS0057.BIN",
+   "patch": "DDS98_MS0057.BIN.bps",
+   "source": {
+    "size": 9185,
+    "crc32": "4fe87e73"
+   },
+   "target": {
+    "size": 9185,
+    "crc32": "cf1c1f41"
+   }
+  },
+  {
+   "path": "DDS98/MS0058.BIN",
+   "patch": "DDS98_MS0058.BIN.bps",
+   "source": {
+    "size": 14029,
+    "crc32": "745bfb30"
+   },
+   "target": {
+    "size": 14029,
+    "crc32": "564f69cc"
+   }
+  },
+  {
+   "path": "DDS98/MS0059.BIN",
+   "patch": "DDS98_MS0059.BIN.bps",
+   "source": {
+    "size": 7152,
+    "crc32": "979d7125"
+   },
+   "target": {
+    "size": 7152,
+    "crc32": "4fc2bd0c"
+   }
+  },
+  {
+   "path": "DDS98/MS005A.BIN",
+   "patch": "DDS98_MS005A.BIN.bps",
+   "source": {
+    "size": 28095,
+    "crc32": "8828f8e5"
+   },
+   "target": {
+    "size": 28095,
+    "crc32": "778fa9c3"
+   }
+  },
+  {
+   "path": "DDS98/MS005B.BIN",
+   "patch": "DDS98_MS005B.BIN.bps",
+   "source": {
+    "size": 33121,
+    "crc32": "6164a735"
+   },
+   "target": {
+    "size": 33121,
+    "crc32": "6aa59d06"
+   }
+  },
+  {
+   "path": "DDS98/MS005C.BIN",
+   "patch": "DDS98_MS005C.BIN.bps",
+   "source": {
+    "size": 24506,
+    "crc32": "b04f57a4"
+   },
+   "target": {
+    "size": 24506,
+    "crc32": "a29740dc"
+   }
+  },
+  {
+   "path": "DDS98/MS005D.BIN",
+   "patch": "DDS98_MS005D.BIN.bps",
+   "source": {
+    "size": 31436,
+    "crc32": "752c1dfe"
+   },
+   "target": {
+    "size": 31436,
+    "crc32": "053f4c79"
+   }
+  },
+  {
+   "path": "DDS98/MS005E.BIN",
+   "patch": "DDS98_MS005E.BIN.bps",
+   "source": {
+    "size": 4055,
+    "crc32": "402b7f0e"
+   },
+   "target": {
+    "size": 4055,
+    "crc32": "4aaac89e"
+   }
+  },
+  {
+   "path": "DDS98/MS005F.BIN",
+   "patch": "DDS98_MS005F.BIN.bps",
+   "source": {
+    "size": 22059,
+    "crc32": "695b9432"
+   },
+   "target": {
+    "size": 22059,
+    "crc32": "fadf61d5"
+   }
+  },
+  {
+   "path": "DDS98/MS0060.BIN",
+   "patch": "DDS98_MS0060.BIN.bps",
+   "source": {
+    "size": 19801,
+    "crc32": "5eb104dc"
+   },
+   "target": {
+    "size": 19801,
+    "crc32": "d23efd5e"
+   }
+  },
+  {
+   "path": "DDS98/MS0061.BIN",
+   "patch": "DDS98_MS0061.BIN.bps",
+   "source": {
+    "size": 19927,
+    "crc32": "9eebfff8"
+   },
+   "target": {
+    "size": 19927,
+    "crc32": "255c63c4"
+   }
+  },
+  {
+   "path": "DDS98/MS0062.BIN",
+   "patch": "DDS98_MS0062.BIN.bps",
+   "source": {
+    "size": 12311,
+    "crc32": "8f3c841d"
+   },
+   "target": {
+    "size": 12311,
+    "crc32": "fe8dad02"
+   }
+  },
+  {
+   "path": "DDS98/MS0063.BIN",
+   "patch": "DDS98_MS0063.BIN.bps",
+   "source": {
+    "size": 8027,
+    "crc32": "f304809c"
+   },
+   "target": {
+    "size": 8027,
+    "crc32": "0674856b"
+   }
+  },
+  {
+   "path": "DDS98/MS0064.BIN",
+   "patch": "DDS98_MS0064.BIN.bps",
+   "source": {
+    "size": 13835,
+    "crc32": "24a85cb3"
+   },
+   "target": {
+    "size": 13835,
+    "crc32": "258fdf7f"
+   }
+  },
+  {
+   "path": "DDS98/MS0065.BIN",
+   "patch": "DDS98_MS0065.BIN.bps",
+   "source": {
+    "size": 13923,
+    "crc32": "6368b675"
+   },
+   "target": {
+    "size": 13923,
+    "crc32": "1dbc3322"
+   }
+  },
+  {
+   "path": "DDS98/MS0066.BIN",
+   "patch": "DDS98_MS0066.BIN.bps",
+   "source": {
+    "size": 11565,
+    "crc32": "3e0f3224"
+   },
+   "target": {
+    "size": 11565,
+    "crc32": "9948f423"
+   }
+  },
+  {
+   "path": "DDS98/MS0067.BIN",
+   "patch": "DDS98_MS0067.BIN.bps",
+   "source": {
+    "size": 29511,
+    "crc32": "41280d9c"
+   },
+   "target": {
+    "size": 29511,
+    "crc32": "91f6a952"
+   }
+  },
+  {
+   "path": "DDS98/MS0068.BIN",
+   "patch": "DDS98_MS0068.BIN.bps",
+   "source": {
+    "size": 14933,
+    "crc32": "f0937999"
+   },
+   "target": {
+    "size": 14933,
+    "crc32": "cfedd6ed"
+   }
+  },
+  {
+   "path": "DDS98/MS0069.BIN",
+   "patch": "DDS98_MS0069.BIN.bps",
+   "source": {
+    "size": 10343,
+    "crc32": "5761ef67"
+   },
+   "target": {
+    "size": 10343,
+    "crc32": "56c070e3"
+   }
+  },
+  {
+   "path": "DDS98/MS006A.BIN",
+   "patch": "DDS98_MS006A.BIN.bps",
+   "source": {
+    "size": 28298,
+    "crc32": "9fe72202"
+   },
+   "target": {
+    "size": 28298,
+    "crc32": "054df444"
+   }
+  },
+  {
+   "path": "DDS98/MS006B.BIN",
+   "patch": "DDS98_MS006B.BIN.bps",
+   "source": {
+    "size": 11252,
+    "crc32": "02a9184b"
+   },
+   "target": {
+    "size": 11252,
+    "crc32": "c937543d"
+   }
+  },
+  {
+   "path": "DDS98/MS006C.BIN",
+   "patch": "DDS98_MS006C.BIN.bps",
+   "source": {
+    "size": 15349,
+    "crc32": "aaaeb7a5"
+   },
+   "target": {
+    "size": 15349,
+    "crc32": "cd849ae4"
+   }
+  },
+  {
+   "path": "DDS98/MS006D.BIN",
+   "patch": "DDS98_MS006D.BIN.bps",
+   "source": {
+    "size": 12206,
+    "crc32": "fcdfe34a"
+   },
+   "target": {
+    "size": 12206,
+    "crc32": "df2794df"
+   }
+  },
+  {
+   "path": "DDS98/MS0080.BIN",
+   "patch": "DDS98_MS0080.BIN.bps",
+   "source": {
+    "size": 570,
+    "crc32": "9692dfed"
+   },
+   "target": {
+    "size": 570,
+    "crc32": "6aefebd0"
+   }
+  },
+  {
+   "path": "DDS98/MS00A0.BIN",
+   "patch": "DDS98_MS00A0.BIN.bps",
+   "source": {
+    "size": 127,
+    "crc32": "ebe63471"
+   },
+   "target": {
+    "size": 127,
+    "crc32": "f5649a28"
+   }
+  },
+  {
+   "path": "DDS98/MS00A1.BIN",
+   "patch": "DDS98_MS00A1.BIN.bps",
+   "source": {
+    "size": 283,
+    "crc32": "e9ab937b"
+   },
+   "target": {
+    "size": 283,
+    "crc32": "7fd7f6d2"
+   }
+  },
+  {
+   "path": "DDS98/MS00A2.BIN",
+   "patch": "DDS98_MS00A2.BIN.bps",
+   "source": {
+    "size": 281,
+    "crc32": "319936cf"
+   },
+   "target": {
+    "size": 281,
+    "crc32": "f9d44260"
+   }
+  },
+  {
+   "path": "DDS98/MS00A3.BIN",
+   "patch": "DDS98_MS00A3.BIN.bps",
+   "source": {
+    "size": 127,
+    "crc32": "85f034c5"
+   },
+   "target": {
+    "size": 127,
+    "crc32": "475fe4d9"
+   }
+  },
+  {
+   "path": "DDS98/MS00A4.BIN",
+   "patch": "DDS98_MS00A4.BIN.bps",
+   "source": {
+    "size": 283,
+    "crc32": "94e9a4b0"
+   },
+   "target": {
+    "size": 283,
+    "crc32": "41adaab5"
+   }
+  },
+  {
+   "path": "DDS98/MS00A5.BIN",
+   "patch": "DDS98_MS00A5.BIN.bps",
+   "source": {
+    "size": 127,
+    "crc32": "57f64b63"
+   },
+   "target": {
+    "size": 127,
+    "crc32": "27276a7c"
+   }
+  },
+  {
+   "path": "DDS98/MS00A6.BIN",
+   "patch": "DDS98_MS00A6.BIN.bps",
+   "source": {
+    "size": 285,
+    "crc32": "72e6c009"
+   },
+   "target": {
+    "size": 285,
+    "crc32": "3659fd90"
+   }
+  },
+  {
+   "path": "DDS98/MS00A7.BIN",
+   "patch": "DDS98_MS00A7.BIN.bps",
+   "source": {
+    "size": 127,
+    "crc32": "c9b4fd07"
+   },
+   "target": {
+    "size": 127,
+    "crc32": "52bb98de"
+   }
+  },
+  {
+   "path": "DDS98/MS00A8.BIN",
+   "patch": "DDS98_MS00A8.BIN.bps",
+   "source": {
+    "size": 283,
+    "crc32": "2ae70bc7"
+   },
+   "target": {
+    "size": 283,
+    "crc32": "0f6be7b9"
+   }
+  },
+  {
+   "path": "DDS98/MS00A9.BIN",
+   "patch": "DDS98_MS00A9.BIN.bps",
+   "source": {
+    "size": 283,
+    "crc32": "994f8628"
+   },
+   "target": {
+    "size": 283,
+    "crc32": "1f463315"
+   }
+  },
+  {
+   "path": "DDS98/MS00AA.BIN",
+   "patch": "DDS98_MS00AA.BIN.bps",
+   "source": {
+    "size": 285,
+    "crc32": "d7a46a8e"
+   },
+   "target": {
+    "size": 285,
+    "crc32": "3d43fd11"
+   }
+  },
+  {
+   "path": "DDS98/MS00AB.BIN",
+   "patch": "DDS98_MS00AB.BIN.bps",
+   "source": {
+    "size": 285,
+    "crc32": "0de103b8"
+   },
+   "target": {
+    "size": 285,
+    "crc32": "3b5b2387"
+   }
+  },
+  {
+   "path": "DDS98/MS00AC.BIN",
+   "patch": "DDS98_MS00AC.BIN.bps",
+   "source": {
+    "size": 127,
+    "crc32": "9ccf5f2e"
+   },
+   "target": {
+    "size": 127,
+    "crc32": "3a64f0b4"
+   }
+  },
+  {
+   "path": "DDS98/MS00AD.BIN",
+   "patch": "DDS98_MS00AD.BIN.bps",
+   "source": {
+    "size": 287,
+    "crc32": "49c872f7"
+   },
+   "target": {
+    "size": 287,
+    "crc32": "30a849f3"
+   }
+  },
+  {
+   "path": "DDS98/MS00AE.BIN",
+   "patch": "DDS98_MS00AE.BIN.bps",
+   "source": {
+    "size": 285,
+    "crc32": "7b84de87"
+   },
+   "target": {
+    "size": 285,
+    "crc32": "b2cfa7e0"
+   }
+  },
+  {
+   "path": "DDS98/MS00AF.BIN",
+   "patch": "DDS98_MS00AF.BIN.bps",
+   "source": {
+    "size": 7422,
+    "crc32": "461269c2"
+   },
+   "target": {
+    "size": 7422,
+    "crc32": "2c2de324"
+   }
+  },
+  {
+   "path": "DDS98/MS00B0.BIN",
+   "patch": "DDS98_MS00B0.BIN.bps",
+   "source": {
+    "size": 1928,
+    "crc32": "f9f6619d"
+   },
+   "target": {
+    "size": 1928,
+    "crc32": "432d7ab6"
+   }
+  },
+  {
+   "path": "DDS98/MS00B1.BIN",
+   "patch": "DDS98_MS00B1.BIN.bps",
+   "source": {
+    "size": 2907,
+    "crc32": "b7b491af"
+   },
+   "target": {
+    "size": 2907,
+    "crc32": "bfdef1b9"
+   }
+  },
+  {
+   "path": "DDS98/MS00B2.BIN",
+   "patch": "DDS98_MS00B2.BIN.bps",
+   "source": {
+    "size": 1912,
+    "crc32": "3fe5c427"
+   },
+   "target": {
+    "size": 1912,
+    "crc32": "5dd6962f"
+   }
+  },
+  {
+   "path": "DDS98/MS00B3.BIN",
+   "patch": "DDS98_MS00B3.BIN.bps",
+   "source": {
+    "size": 3386,
+    "crc32": "fecd18f5"
+   },
+   "target": {
+    "size": 3386,
+    "crc32": "83f04951"
+   }
+  },
+  {
+   "path": "DDS98/MS00B4.BIN",
+   "patch": "DDS98_MS00B4.BIN.bps",
+   "source": {
+    "size": 849,
+    "crc32": "65c7d134"
+   },
+   "target": {
+    "size": 849,
+    "crc32": "eb466062"
+   }
+  },
+  {
+   "path": "DDS98/MS00B5.BIN",
+   "patch": "DDS98_MS00B5.BIN.bps",
+   "source": {
+    "size": 2784,
+    "crc32": "9cb9c89e"
+   },
+   "target": {
+    "size": 2784,
+    "crc32": "f22a0e92"
+   }
+  },
+  {
+   "path": "DDS98/MS00B6.BIN",
+   "patch": "DDS98_MS00B6.BIN.bps",
+   "source": {
+    "size": 1483,
+    "crc32": "ceb2d48d"
+   },
+   "target": {
+    "size": 1483,
+    "crc32": "974a8456"
+   }
+  },
+  {
+   "path": "DDS98/MS00B7.BIN",
+   "patch": "DDS98_MS00B7.BIN.bps",
+   "source": {
+    "size": 1754,
+    "crc32": "c20ce590"
+   },
+   "target": {
+    "size": 1754,
+    "crc32": "86885d5f"
+   }
+  },
+  {
+   "path": "DDS98/MS00B8.BIN",
+   "patch": "DDS98_MS00B8.BIN.bps",
+   "source": {
+    "size": 1192,
+    "crc32": "8a08562f"
+   },
+   "target": {
+    "size": 1192,
+    "crc32": "f02a856c"
+   }
+  },
+  {
+   "path": "DDS98/MS00C0.BIN",
+   "patch": "DDS98_MS00C0.BIN.bps",
+   "source": {
+    "size": 322,
+    "crc32": "fec82173"
+   },
+   "target": {
+    "size": 322,
+    "crc32": "2166a846"
+   }
+  },
+  {
+   "path": "DDS98/MS00D0.BIN",
+   "patch": "DDS98_MS00D0.BIN.bps",
+   "source": {
+    "size": 189,
+    "crc32": "ffc5f450"
+   },
+   "target": {
+    "size": 189,
+    "crc32": "078cc724"
+   }
+  },
+  {
+   "path": "DDS98/MS00D1.BIN",
+   "patch": "DDS98_MS00D1.BIN.bps",
+   "source": {
+    "size": 7780,
+    "crc32": "2775ec91"
+   },
+   "target": {
+    "size": 7780,
+    "crc32": "76f374ac"
+   }
+  },
+  {
+   "path": "DDS98/MS00D2.BIN",
+   "patch": "DDS98_MS00D2.BIN.bps",
+   "source": {
+    "size": 837,
+    "crc32": "7b6c1686"
+   },
+   "target": {
+    "size": 837,
+    "crc32": "c2464734"
+   }
+  },
+  {
+   "path": "DDS98/MS00D8.BIN",
+   "patch": "DDS98_MS00D8.BIN.bps",
+   "source": {
+    "size": 2261,
+    "crc32": "e0513494"
+   },
+   "target": {
+    "size": 2261,
+    "crc32": "e093d1d9"
+   }
+  },
+  {
+   "path": "DDS98/MS00DB.BIN",
+   "patch": "DDS98_MS00DB.BIN.bps",
+   "source": {
+    "size": 4252,
+    "crc32": "6b409cb1"
+   },
+   "target": {
+    "size": 4252,
+    "crc32": "bfb773e9"
+   }
+  },
+  {
+   "path": "DDS98/MS00DC.BIN",
+   "patch": "DDS98_MS00DC.BIN.bps",
+   "source": {
+    "size": 571,
+    "crc32": "c400ce38"
+   },
+   "target": {
+    "size": 571,
+    "crc32": "4dca5a76"
+   }
+  },
+  {
+   "path": "DDS98/MS00DD.BIN",
+   "patch": "DDS98_MS00DD.BIN.bps",
+   "source": {
+    "size": 5277,
+    "crc32": "d68bc5bc"
+   },
+   "target": {
+    "size": 5277,
+    "crc32": "0ec8bde0"
+   }
+  },
+  {
+   "path": "DDS98/MS00DE.BIN",
+   "patch": "DDS98_MS00DE.BIN.bps",
+   "source": {
+    "size": 3257,
+    "crc32": "7f5ab915"
+   },
+   "target": {
+    "size": 3257,
+    "crc32": "83e85c79"
+   }
+  },
+  {
+   "path": "DDS98/MS00DF.BIN",
+   "patch": "DDS98_MS00DF.BIN.bps",
+   "source": {
+    "size": 476,
+    "crc32": "2f7f0951"
+   },
+   "target": {
+    "size": 476,
+    "crc32": "ed377e85"
+   }
+  },
+  {
+   "path": "DDS98/MS0100.BIN",
+   "patch": "DDS98_MS0100.BIN.bps",
+   "source": {
+    "size": 866,
+    "crc32": "71f30862"
+   },
+   "target": {
+    "size": 866,
+    "crc32": "8d9b7005"
+   }
+  },
+  {
+   "path": "DDS98/MS0101.BIN",
+   "patch": "DDS98_MS0101.BIN.bps",
+   "source": {
+    "size": 570,
+    "crc32": "139553bd"
+   },
+   "target": {
+    "size": 570,
+    "crc32": "f840463c"
+   }
+  },
+  {
+   "path": "DDS98/MS0102.BIN",
+   "patch": "DDS98_MS0102.BIN.bps",
+   "source": {
+    "size": 836,
+    "crc32": "e36b4c4d"
+   },
+   "target": {
+    "size": 836,
+    "crc32": "6520188d"
+   }
+  },
+  {
+   "path": "DDS98/MS0103.BIN",
+   "patch": "DDS98_MS0103.BIN.bps",
+   "source": {
+    "size": 808,
+    "crc32": "8bfbb21f"
+   },
+   "target": {
+    "size": 808,
+    "crc32": "b1bc5079"
+   }
+  },
+  {
+   "path": "DDS98/MS0104.BIN",
+   "patch": "DDS98_MS0104.BIN.bps",
+   "source": {
+    "size": 893,
+    "crc32": "efbbd350"
+   },
+   "target": {
+    "size": 893,
+    "crc32": "9375dfd3"
+   }
+  },
+  {
+   "path": "DDS98/MS0105.BIN",
+   "patch": "DDS98_MS0105.BIN.bps",
+   "source": {
+    "size": 737,
+    "crc32": "934d8d1e"
+   },
+   "target": {
+    "size": 737,
+    "crc32": "b693717c"
+   }
+  },
+  {
+   "path": "DDS98/MS0106.BIN",
+   "patch": "DDS98_MS0106.BIN.bps",
+   "source": {
+    "size": 646,
+    "crc32": "1b157f7b"
+   },
+   "target": {
+    "size": 646,
+    "crc32": "465043ab"
+   }
+  },
+  {
+   "path": "DDS98/MS010A.BIN",
+   "patch": "DDS98_MS010A.BIN.bps",
+   "source": {
+    "size": 1114,
+    "crc32": "eb96eb75"
+   },
+   "target": {
+    "size": 1114,
+    "crc32": "61dc0957"
+   }
+  },
+  {
+   "path": "DDS98/MS0110.BIN",
+   "patch": "DDS98_MS0110.BIN.bps",
+   "source": {
+    "size": 1450,
+    "crc32": "410145fa"
+   },
+   "target": {
+    "size": 1450,
+    "crc32": "0be26446"
+   }
+  },
+  {
+   "path": "DDS98/MS0111.BIN",
+   "patch": "DDS98_MS0111.BIN.bps",
+   "source": {
+    "size": 1563,
+    "crc32": "ad814683"
+   },
+   "target": {
+    "size": 1563,
+    "crc32": "13ff54b8"
+   }
+  },
+  {
+   "path": "DDS98/MS0112.BIN",
+   "patch": "DDS98_MS0112.BIN.bps",
+   "source": {
+    "size": 2053,
+    "crc32": "28986c17"
+   },
+   "target": {
+    "size": 2053,
+    "crc32": "9b693bc7"
+   }
+  },
+  {
+   "path": "DDS98/MS0115.BIN",
+   "patch": "DDS98_MS0115.BIN.bps",
+   "source": {
+    "size": 1283,
+    "crc32": "ba50c9b6"
+   },
+   "target": {
+    "size": 1283,
+    "crc32": "0e5765db"
+   }
+  },
+  {
+   "path": "DDS98/MS6000.BIN",
+   "patch": "DDS98_MS6000.BIN.bps",
+   "source": {
+    "size": 26201,
+    "crc32": "c86b779e"
+   },
+   "target": {
+    "size": 26201,
+    "crc32": "3b6526bb"
+   }
+  },
+  {
+   "path": "DDS98/MS6001.BIN",
+   "patch": "DDS98_MS6001.BIN.bps",
+   "source": {
+    "size": 22205,
+    "crc32": "222068b2"
+   },
+   "target": {
+    "size": 22205,
+    "crc32": "02654f1d"
+   }
+  },
+  {
+   "path": "DDS98/MS6002.BIN",
+   "patch": "DDS98_MS6002.BIN.bps",
+   "source": {
+    "size": 13844,
+    "crc32": "d885b816"
+   },
+   "target": {
+    "size": 13844,
+    "crc32": "1709d6d2"
+   }
+  },
+  {
+   "path": "DDS98/MS6003.BIN",
+   "patch": "DDS98_MS6003.BIN.bps",
+   "source": {
+    "size": 13125,
+    "crc32": "0be8d4a6"
+   },
+   "target": {
+    "size": 13125,
+    "crc32": "621e38e0"
+   }
+  },
+  {
+   "path": "DDS98/MS6004.BIN",
+   "patch": "DDS98_MS6004.BIN.bps",
+   "source": {
+    "size": 16197,
+    "crc32": "881fb0c6"
+   },
+   "target": {
+    "size": 16197,
+    "crc32": "c47f98a3"
+   }
+  },
+  {
+   "path": "DDS98/MS6005.BIN",
+   "patch": "DDS98_MS6005.BIN.bps",
+   "source": {
+    "size": 8818,
+    "crc32": "7f3cd5fa"
+   },
+   "target": {
+    "size": 8818,
+    "crc32": "bc9ba11d"
+   }
+  },
+  {
+   "path": "DDS98/MS6006.BIN",
+   "patch": "DDS98_MS6006.BIN.bps",
+   "source": {
+    "size": 6147,
+    "crc32": "ce970081"
+   },
+   "target": {
+    "size": 6147,
+    "crc32": "ad3a173b"
+   }
+  },
+  {
+   "path": "DDS98/MS6007.BIN",
+   "patch": "DDS98_MS6007.BIN.bps",
+   "source": {
+    "size": 7322,
+    "crc32": "a3e98754"
+   },
+   "target": {
+    "size": 7322,
+    "crc32": "562027e5"
+   }
+  },
+  {
+   "path": "DDS98/MS6008.BIN",
+   "patch": "DDS98_MS6008.BIN.bps",
+   "source": {
+    "size": 6767,
+    "crc32": "0d2fbe1d"
+   },
+   "target": {
+    "size": 6767,
+    "crc32": "32361de3"
+   }
+  },
+  {
+   "path": "DDS98/MS6009.BIN",
+   "patch": "DDS98_MS6009.BIN.bps",
+   "source": {
+    "size": 7358,
+    "crc32": "677a040c"
+   },
+   "target": {
+    "size": 7358,
+    "crc32": "38ca1274"
+   }
+  },
+  {
+   "path": "DDS98/MS600A.BIN",
+   "patch": "DDS98_MS600A.BIN.bps",
+   "source": {
+    "size": 6510,
+    "crc32": "0b37edef"
+   },
+   "target": {
+    "size": 6510,
+    "crc32": "933b4038"
+   }
+  },
+  {
+   "path": "DDS98/MS600B.BIN",
+   "patch": "DDS98_MS600B.BIN.bps",
+   "source": {
+    "size": 8461,
+    "crc32": "e409bdaa"
+   },
+   "target": {
+    "size": 8461,
+    "crc32": "590fe166"
+   }
+  },
+  {
+   "path": "DDS98/MS600C.BIN",
+   "patch": "DDS98_MS600C.BIN.bps",
+   "source": {
+    "size": 8128,
+    "crc32": "b8c19071"
+   },
+   "target": {
+    "size": 8128,
+    "crc32": "ae987a5c"
+   }
+  },
+  {
+   "path": "DDS98/MS600D.BIN",
+   "patch": "DDS98_MS600D.BIN.bps",
+   "source": {
+    "size": 7385,
+    "crc32": "6dac168e"
+   },
+   "target": {
+    "size": 7385,
+    "crc32": "7f42175f"
+   }
+  },
+  {
+   "path": "DDS98/MS600E.BIN",
+   "patch": "DDS98_MS600E.BIN.bps",
+   "source": {
+    "size": 7568,
+    "crc32": "b58a49b2"
+   },
+   "target": {
+    "size": 7568,
+    "crc32": "d86a54a1"
+   }
+  },
+  {
+   "path": "DDS98/MS600F.BIN",
+   "patch": "DDS98_MS600F.BIN.bps",
+   "source": {
+    "size": 8816,
+    "crc32": "d071eda7"
+   },
+   "target": {
+    "size": 8816,
+    "crc32": "c028b7fa"
+   }
+  },
+  {
+   "path": "DDS98/MS6010.BIN",
+   "patch": "DDS98_MS6010.BIN.bps",
+   "source": {
+    "size": 8687,
+    "crc32": "82df2ded"
+   },
+   "target": {
+    "size": 8687,
+    "crc32": "0ef84a92"
+   }
+  },
+  {
+   "path": "DDS98/MS6011.BIN",
+   "patch": "DDS98_MS6011.BIN.bps",
+   "source": {
+    "size": 8815,
+    "crc32": "ee4a6969"
+   },
+   "target": {
+    "size": 8815,
+    "crc32": "fae2d197"
+   }
+  },
+  {
+   "path": "DDS98/MS6012.BIN",
+   "patch": "DDS98_MS6012.BIN.bps",
+   "source": {
+    "size": 12803,
+    "crc32": "f1e8dfc1"
+   },
+   "target": {
+    "size": 12803,
+    "crc32": "08024d47"
+   }
+  },
+  {
+   "path": "DDS98/MS6013.BIN",
+   "patch": "DDS98_MS6013.BIN.bps",
+   "source": {
+    "size": 5123,
+    "crc32": "ef998a36"
+   },
+   "target": {
+    "size": 5123,
+    "crc32": "9b9ab371"
+   }
+  },
+  {
+   "path": "DDS98/MS6014.BIN",
+   "patch": "DDS98_MS6014.BIN.bps",
+   "source": {
+    "size": 6216,
+    "crc32": "a395667e"
+   },
+   "target": {
+    "size": 6216,
+    "crc32": "543c9a9a"
+   }
+  },
+  {
+   "path": "DDS98/MS6015.BIN",
+   "patch": "DDS98_MS6015.BIN.bps",
+   "source": {
+    "size": 5757,
+    "crc32": "ed1ed8c6"
+   },
+   "target": {
+    "size": 5757,
+    "crc32": "9dc2d526"
+   }
+  },
+  {
+   "path": "DDS98/MS6016.BIN",
+   "patch": "DDS98_MS6016.BIN.bps",
+   "source": {
+    "size": 5863,
+    "crc32": "0b1fc0ea"
+   },
+   "target": {
+    "size": 5863,
+    "crc32": "40f763bd"
+   }
+  },
+  {
+   "path": "DDS98/MS6100.BIN",
+   "patch": "DDS98_MS6100.BIN.bps",
+   "source": {
+    "size": 1159,
+    "crc32": "cddc844c"
+   },
+   "target": {
+    "size": 1159,
+    "crc32": "75eaa371"
+   }
+  },
+  {
+   "path": "DDS98/MS6101.BIN",
+   "patch": "DDS98_MS6101.BIN.bps",
+   "source": {
+    "size": 681,
+    "crc32": "c27ec31d"
+   },
+   "target": {
+    "size": 681,
+    "crc32": "2c572d20"
+   }
+  },
+  {
+   "path": "DDS98/MS6102.BIN",
+   "patch": "DDS98_MS6102.BIN.bps",
+   "source": {
+    "size": 443,
+    "crc32": "64296f16"
+   },
+   "target": {
+    "size": 443,
+    "crc32": "5b34a33f"
+   }
+  },
+  {
+   "path": "DDS98/MS6103.BIN",
+   "patch": "DDS98_MS6103.BIN.bps",
+   "source": {
+    "size": 4119,
+    "crc32": "ad41a1c8"
+   },
+   "target": {
+    "size": 4119,
+    "crc32": "05cd20f7"
+   }
+  },
+  {
+   "path": "DDS98/MS6104.BIN",
+   "patch": "DDS98_MS6104.BIN.bps",
+   "source": {
+    "size": 458,
+    "crc32": "f812fbc3"
+   },
+   "target": {
+    "size": 458,
+    "crc32": "764f1c73"
+   }
+  },
+  {
+   "path": "DDS98/MS6105.BIN",
+   "patch": "DDS98_MS6105.BIN.bps",
+   "source": {
+    "size": 458,
+    "crc32": "f812fbc3"
+   },
+   "target": {
+    "size": 458,
+    "crc32": "764f1c73"
+   }
+  },
+  {
+   "path": "DDS98/MS6106.BIN",
+   "patch": "DDS98_MS6106.BIN.bps",
+   "source": {
+    "size": 7814,
+    "crc32": "79f32fac"
+   },
+   "target": {
+    "size": 7814,
+    "crc32": "a14e3a0d"
+   }
+  },
+  {
+   "path": "DDS98/MS6107.BIN",
+   "patch": "DDS98_MS6107.BIN.bps",
+   "source": {
+    "size": 7546,
+    "crc32": "ac4dc1d8"
+   },
+   "target": {
+    "size": 7546,
+    "crc32": "cc702cda"
+   }
+  },
+  {
+   "path": "DDS98/MS6108.BIN",
+   "patch": "DDS98_MS6108.BIN.bps",
+   "source": {
+    "size": 6808,
+    "crc32": "870520a8"
+   },
+   "target": {
+    "size": 6808,
+    "crc32": "00353415"
+   }
+  },
+  {
+   "path": "DDS98/MS6109.BIN",
+   "patch": "DDS98_MS6109.BIN.bps",
+   "source": {
+    "size": 8354,
+    "crc32": "ddff3c71"
+   },
+   "target": {
+    "size": 8354,
+    "crc32": "1b5e046b"
+   }
+  },
+  {
+   "path": "DDS98/MS610A.BIN",
+   "patch": "DDS98_MS610A.BIN.bps",
+   "source": {
+    "size": 5165,
+    "crc32": "f5699ba3"
+   },
+   "target": {
+    "size": 5165,
+    "crc32": "75c55db8"
+   }
+  },
+  {
+   "path": "DDS98/MS610B.BIN",
+   "patch": "DDS98_MS610B.BIN.bps",
+   "source": {
+    "size": 7382,
+    "crc32": "5b94f850"
+   },
+   "target": {
+    "size": 7382,
+    "crc32": "2358268c"
+   }
+  },
+  {
+   "path": "DDS98/MS610C.BIN",
+   "patch": "DDS98_MS610C.BIN.bps",
+   "source": {
+    "size": 8954,
+    "crc32": "d62d8a6c"
+   },
+   "target": {
+    "size": 8954,
+    "crc32": "be2aa827"
+   }
+  },
+  {
+   "path": "DDS98/MS610D.BIN",
+   "patch": "DDS98_MS610D.BIN.bps",
+   "source": {
+    "size": 4697,
+    "crc32": "387e51f4"
+   },
+   "target": {
+    "size": 4697,
+    "crc32": "3a813279"
+   }
+  },
+  {
+   "path": "DDS98/MS6200.BIN",
+   "patch": "DDS98_MS6200.BIN.bps",
+   "source": {
+    "size": 2059,
+    "crc32": "53ae2d01"
+   },
+   "target": {
+    "size": 2059,
+    "crc32": "82ce9f82"
+   }
+  },
+  {
+   "path": "DDS98/MS6500.BIN",
+   "patch": "DDS98_MS6500.BIN.bps",
+   "source": {
+    "size": 592,
+    "crc32": "d3969fa8"
+   },
+   "target": {
+    "size": 592,
+    "crc32": "82974389"
+   }
+  },
+  {
+   "path": "DDS98/MS7F01.BIN",
+   "patch": "DDS98_MS7F01.BIN.bps",
+   "source": {
+    "size": 160,
+    "crc32": "90b3f534"
+   },
+   "target": {
+    "size": 4686,
+    "crc32": "de96a82a"
+   }
+  },
+  {
+   "path": "DDS98/MS7F03.BIN",
+   "patch": "DDS98_MS7F03.BIN.bps",
+   "source": {
+    "size": 650,
+    "crc32": "e33cf259"
+   },
+   "target": {
+    "size": 2322,
+    "crc32": "f2c409fb"
+   }
+  },
+  {
+   "path": "DDS98/MS7F04.BIN",
+   "patch": "DDS98_MS7F04.BIN.bps",
+   "source": {
+    "size": 2075,
+    "crc32": "8e86a8a6"
+   },
+   "target": {
+    "size": 2075,
+    "crc32": "fe596379"
+   }
+  },
+  {
+   "path": "DDS98/MS7F06.BIN",
+   "patch": "DDS98_MS7F06.BIN.bps",
+   "source": {
+    "size": 4002,
+    "crc32": "d1238f43"
+   },
+   "target": {
+    "size": 4002,
+    "crc32": "53a51032"
+   }
+  },
+  {
+   "path": "DDS98/MS7F07.BIN",
+   "patch": "DDS98_MS7F07.BIN.bps",
+   "source": {
+    "size": 1222,
+    "crc32": "714b49c7"
+   },
+   "target": {
+    "size": 3232,
+    "crc32": "a6c2c2a9"
+   }
+  },
+  {
+   "path": "DDS98/P2000.BIN",
+   "patch": "DDS98_P2000.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6ca94e9b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "63e2bca4"
+   }
+  },
+  {
+   "path": "DDS98/P2001.BIN",
+   "patch": "DDS98_P2001.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "452acc24"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "78904411"
+   }
+  },
+  {
+   "path": "DDS98/P2003.BIN",
+   "patch": "DDS98_P2003.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a22eb17b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "90635a64"
+   }
+  },
+  {
+   "path": "DDS98/P2005.BIN",
+   "patch": "DDS98_P2005.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "cda08348"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d816aed6"
+   }
+  },
+  {
+   "path": "DDS98/P2006.BIN",
+   "patch": "DDS98_P2006.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "412d19c6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "decc5d4a"
+   }
+  },
+  {
+   "path": "DDS98/P2007.BIN",
+   "patch": "DDS98_P2007.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5ce05720"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d7ade7fe"
+   }
+  },
+  {
+   "path": "DDS98/P2008.BIN",
+   "patch": "DDS98_P2008.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "35f481fe"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e8355180"
+   }
+  },
+  {
+   "path": "DDS98/P2009.BIN",
+   "patch": "DDS98_P2009.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a171da05"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "797274a8"
+   }
+  },
+  {
+   "path": "DDS98/P200A.BIN",
+   "patch": "DDS98_P200A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5338504d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3cb6480b"
+   }
+  },
+  {
+   "path": "DDS98/P200B.BIN",
+   "patch": "DDS98_P200B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c85dac2f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "983e664f"
+   }
+  },
+  {
+   "path": "DDS98/P200C.BIN",
+   "patch": "DDS98_P200C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "dce2157c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3d2b2649"
+   }
+  },
+  {
+   "path": "DDS98/P200D.BIN",
+   "patch": "DDS98_P200D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2fa5a5f0"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4d32eb39"
+   }
+  },
+  {
+   "path": "DDS98/P200E.BIN",
+   "patch": "DDS98_P200E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7fb98d35"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5c895524"
+   }
+  },
+  {
+   "path": "DDS98/P200F.BIN",
+   "patch": "DDS98_P200F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4c779b9f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1278958d"
+   }
+  },
+  {
+   "path": "DDS98/P2010.BIN",
+   "patch": "DDS98_P2010.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "68af844f"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "d8b9e20d"
+   }
+  },
+  {
+   "path": "DDS98/P2011.BIN",
+   "patch": "DDS98_P2011.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "3aa4038e"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "33c64efd"
+   }
+  },
+  {
+   "path": "DDS98/P2012.BIN",
+   "patch": "DDS98_P2012.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "7063f1cc"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "9bcb5ab1"
+   }
+  },
+  {
+   "path": "DDS98/P2013.BIN",
+   "patch": "DDS98_P2013.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "29225b96"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "38c987e9"
+   }
+  },
+  {
+   "path": "DDS98/P2014.BIN",
+   "patch": "DDS98_P2014.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "20700d07"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "6efd84e1"
+   }
+  },
+  {
+   "path": "DDS98/P2015.BIN",
+   "patch": "DDS98_P2015.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "9fa0f5b6"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "1c01c4bb"
+   }
+  },
+  {
+   "path": "DDS98/P2016.BIN",
+   "patch": "DDS98_P2016.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "5c7bd39c"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "9db33576"
+   }
+  },
+  {
+   "path": "DDS98/P2017.BIN",
+   "patch": "DDS98_P2017.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "3450265a"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "61f3e5bc"
+   }
+  },
+  {
+   "path": "DDS98/P2018.BIN",
+   "patch": "DDS98_P2018.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "912d8355"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "c64b75cd"
+   }
+  },
+  {
+   "path": "DDS98/P2019.BIN",
+   "patch": "DDS98_P2019.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "f49f4af2"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "fc100ea7"
+   }
+  },
+  {
+   "path": "DDS98/P201A.BIN",
+   "patch": "DDS98_P201A.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "33464ec4"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "762464c6"
+   }
+  },
+  {
+   "path": "DDS98/P201B.BIN",
+   "patch": "DDS98_P201B.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "7dac6bf5"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "ecd23c27"
+   }
+  },
+  {
+   "path": "DDS98/P201C.BIN",
+   "patch": "DDS98_P201C.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "e27f52e4"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "dacaec20"
+   }
+  },
+  {
+   "path": "DDS98/P201D.BIN",
+   "patch": "DDS98_P201D.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "c68ecc27"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "22753906"
+   }
+  },
+  {
+   "path": "DDS98/P201E.BIN",
+   "patch": "DDS98_P201E.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "1ba9f645"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "258b1f09"
+   }
+  },
+  {
+   "path": "DDS98/P201F.BIN",
+   "patch": "DDS98_P201F.BIN.bps",
+   "source": {
+    "size": 123,
+    "crc32": "b6e6eaca"
+   },
+   "target": {
+    "size": 123,
+    "crc32": "a830eff7"
+   }
+  },
+  {
+   "path": "DDS98/P2020.BIN",
+   "patch": "DDS98_P2020.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5854abfa"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "dacdf6dc"
+   }
+  },
+  {
+   "path": "DDS98/P2021.BIN",
+   "patch": "DDS98_P2021.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c38daf9b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b790b713"
+   }
+  },
+  {
+   "path": "DDS98/P2022.BIN",
+   "patch": "DDS98_P2022.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6f9275ea"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3cffb186"
+   }
+  },
+  {
+   "path": "DDS98/P2023.BIN",
+   "patch": "DDS98_P2023.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "13ae6132"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "19516b1c"
+   }
+  },
+  {
+   "path": "DDS98/P2024.BIN",
+   "patch": "DDS98_P2024.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6f940d5a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "dd14ee4b"
+   }
+  },
+  {
+   "path": "DDS98/P2025.BIN",
+   "patch": "DDS98_P2025.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3704cd17"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c9783eaa"
+   }
+  },
+  {
+   "path": "DDS98/P2026.BIN",
+   "patch": "DDS98_P2026.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "cd1319ce"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e51405e7"
+   }
+  },
+  {
+   "path": "DDS98/P2027.BIN",
+   "patch": "DDS98_P2027.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ea521674"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8775300d"
+   }
+  },
+  {
+   "path": "DDS98/P2028.BIN",
+   "patch": "DDS98_P2028.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "291541a3"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "926dcf1e"
+   }
+  },
+  {
+   "path": "DDS98/P2029.BIN",
+   "patch": "DDS98_P2029.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a3f5389a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d0d04536"
+   }
+  },
+  {
+   "path": "DDS98/P202A.BIN",
+   "patch": "DDS98_P202A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "485e4099"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7b2d86fb"
+   }
+  },
+  {
+   "path": "DDS98/P202B.BIN",
+   "patch": "DDS98_P202B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a93b11cc"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c7cc3f55"
+   }
+  },
+  {
+   "path": "DDS98/P202C.BIN",
+   "patch": "DDS98_P202C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9e716931"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "eba05bb8"
+   }
+  },
+  {
+   "path": "DDS98/P202D.BIN",
+   "patch": "DDS98_P202D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8e462113"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8da3a2a1"
+   }
+  },
+  {
+   "path": "DDS98/P202E.BIN",
+   "patch": "DDS98_P202E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "95e69234"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c6f4daba"
+   }
+  },
+  {
+   "path": "DDS98/P202F.BIN",
+   "patch": "DDS98_P202F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "54e7cb7b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ffefb9da"
+   }
+  },
+  {
+   "path": "DDS98/P2030.BIN",
+   "patch": "DDS98_P2030.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0d98e151"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3ca5018a"
+   }
+  },
+  {
+   "path": "DDS98/P2031.BIN",
+   "patch": "DDS98_P2031.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "96eba77a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7e31bffe"
+   }
+  },
+  {
+   "path": "DDS98/P2032.BIN",
+   "patch": "DDS98_P2032.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5ca9bf9f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a59d9dc7"
+   }
+  },
+  {
+   "path": "DDS98/P2033.BIN",
+   "patch": "DDS98_P2033.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f2faa357"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "060ccd68"
+   }
+  },
+  {
+   "path": "DDS98/P2034.BIN",
+   "patch": "DDS98_P2034.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fa9897ed"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2df4e49b"
+   }
+  },
+  {
+   "path": "DDS98/P2035.BIN",
+   "patch": "DDS98_P2035.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3205f19b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2d175844"
+   }
+  },
+  {
+   "path": "DDS98/P2036.BIN",
+   "patch": "DDS98_P2036.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c5d3d580"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fe147e29"
+   }
+  },
+  {
+   "path": "DDS98/P2037.BIN",
+   "patch": "DDS98_P2037.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5ae99764"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2cc50db2"
+   }
+  },
+  {
+   "path": "DDS98/P2038.BIN",
+   "patch": "DDS98_P2038.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5c349735"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "82999655"
+   }
+  },
+  {
+   "path": "DDS98/P2039.BIN",
+   "patch": "DDS98_P2039.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "41026a18"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2b582be7"
+   }
+  },
+  {
+   "path": "DDS98/P203A.BIN",
+   "patch": "DDS98_P203A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fd9319bf"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cb58fa81"
+   }
+  },
+  {
+   "path": "DDS98/P203B.BIN",
+   "patch": "DDS98_P203B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1a8e294d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "13c31875"
+   }
+  },
+  {
+   "path": "DDS98/P203C.BIN",
+   "patch": "DDS98_P203C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "22831fb6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "51f8b346"
+   }
+  },
+  {
+   "path": "DDS98/P203D.BIN",
+   "patch": "DDS98_P203D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "979c5238"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2a42af8c"
+   }
+  },
+  {
+   "path": "DDS98/P203E.BIN",
+   "patch": "DDS98_P203E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a87a09a2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b79e5693"
+   }
+  },
+  {
+   "path": "DDS98/P203F.BIN",
+   "patch": "DDS98_P203F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ee09927d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "980fa1ea"
+   }
+  },
+  {
+   "path": "DDS98/P2040.BIN",
+   "patch": "DDS98_P2040.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b4de9d3e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a0bd6fe3"
+   }
+  },
+  {
+   "path": "DDS98/P2041.BIN",
+   "patch": "DDS98_P2041.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9e96b528"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3036fbf0"
+   }
+  },
+  {
+   "path": "DDS98/P2042.BIN",
+   "patch": "DDS98_P2042.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "19b34872"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "990ee1c9"
+   }
+  },
+  {
+   "path": "DDS98/P2043.BIN",
+   "patch": "DDS98_P2043.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "94592efc"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3f1c9564"
+   }
+  },
+  {
+   "path": "DDS98/P2044.BIN",
+   "patch": "DDS98_P2044.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f21eb4b1"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5f29ad8a"
+   }
+  },
+  {
+   "path": "DDS98/P2045.BIN",
+   "patch": "DDS98_P2045.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b9814b0d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4920b991"
+   }
+  },
+  {
+   "path": "DDS98/P2046.BIN",
+   "patch": "DDS98_P2046.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3e9492d8"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "70f24bef"
+   }
+  },
+  {
+   "path": "DDS98/P2047.BIN",
+   "patch": "DDS98_P2047.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "169499d7"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ef33890d"
+   }
+  },
+  {
+   "path": "DDS98/P2048.BIN",
+   "patch": "DDS98_P2048.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "247307dd"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2a5ab451"
+   }
+  },
+  {
+   "path": "DDS98/P2049.BIN",
+   "patch": "DDS98_P2049.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "53f51cd3"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7c007bbe"
+   }
+  },
+  {
+   "path": "DDS98/P204A.BIN",
+   "patch": "DDS98_P204A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "54fd3317"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6e734518"
+   }
+  },
+  {
+   "path": "DDS98/P204B.BIN",
+   "patch": "DDS98_P204B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4bba537d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8c602db8"
+   }
+  },
+  {
+   "path": "DDS98/P204C.BIN",
+   "patch": "DDS98_P204C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "71067f3e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "95aee3b0"
+   }
+  },
+  {
+   "path": "DDS98/P204E.BIN",
+   "patch": "DDS98_P204E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c13d5f95"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1acaa339"
+   }
+  },
+  {
+   "path": "DDS98/P204F.BIN",
+   "patch": "DDS98_P204F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e63dd539"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "75491a93"
+   }
+  },
+  {
+   "path": "DDS98/P2050.BIN",
+   "patch": "DDS98_P2050.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3f998195"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "05c62c06"
+   }
+  },
+  {
+   "path": "DDS98/P2051.BIN",
+   "patch": "DDS98_P2051.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3f1922c4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "51e2b1ec"
+   }
+  },
+  {
+   "path": "DDS98/P2052.BIN",
+   "patch": "DDS98_P2052.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f4048ce2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "52a45e6c"
+   }
+  },
+  {
+   "path": "DDS98/P2053.BIN",
+   "patch": "DDS98_P2053.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b45bb89f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a67b43a0"
+   }
+  },
+  {
+   "path": "DDS98/P2054.BIN",
+   "patch": "DDS98_P2054.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a891adb1"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "65a1e367"
+   }
+  },
+  {
+   "path": "DDS98/P2055.BIN",
+   "patch": "DDS98_P2055.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ee012955"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a093909b"
+   }
+  },
+  {
+   "path": "DDS98/P2056.BIN",
+   "patch": "DDS98_P2056.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "65eee50a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6d0495df"
+   }
+  },
+  {
+   "path": "DDS98/P2057.BIN",
+   "patch": "DDS98_P2057.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "468ab88f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "17b719b9"
+   }
+  },
+  {
+   "path": "DDS98/P2058.BIN",
+   "patch": "DDS98_P2058.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7a5e3a03"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "03050378"
+   }
+  },
+  {
+   "path": "DDS98/P2059.BIN",
+   "patch": "DDS98_P2059.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2906096b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b2a11610"
+   }
+  },
+  {
+   "path": "DDS98/P205A.BIN",
+   "patch": "DDS98_P205A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8fc46c7f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0de46c27"
+   }
+  },
+  {
+   "path": "DDS98/P205B.BIN",
+   "patch": "DDS98_P205B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5cd514d7"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "21aa5a12"
+   }
+  },
+  {
+   "path": "DDS98/P205D.BIN",
+   "patch": "DDS98_P205D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "118ae2f7"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d02e5f98"
+   }
+  },
+  {
+   "path": "DDS98/P205E.BIN",
+   "patch": "DDS98_P205E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f476e859"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "67f3d119"
+   }
+  },
+  {
+   "path": "DDS98/P205F.BIN",
+   "patch": "DDS98_P205F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5692b110"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cfdf406a"
+   }
+  },
+  {
+   "path": "DDS98/P2060.BIN",
+   "patch": "DDS98_P2060.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "20ccac84"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "13254e4f"
+   }
+  },
+  {
+   "path": "DDS98/P2061.BIN",
+   "patch": "DDS98_P2061.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a479ce2f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "db67f8e5"
+   }
+  },
+  {
+   "path": "DDS98/P2062.BIN",
+   "patch": "DDS98_P2062.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a0d0350e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "694948dc"
+   }
+  },
+  {
+   "path": "DDS98/P2063.BIN",
+   "patch": "DDS98_P2063.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5598a7e4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1645521e"
+   }
+  },
+  {
+   "path": "DDS98/P2064.BIN",
+   "patch": "DDS98_P2064.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "43e9d55d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6607d58d"
+   }
+  },
+  {
+   "path": "DDS98/P2065.BIN",
+   "patch": "DDS98_P2065.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "243aeaab"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "124c3e84"
+   }
+  },
+  {
+   "path": "DDS98/P2066.BIN",
+   "patch": "DDS98_P2066.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7ddd810f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ab125216"
+   }
+  },
+  {
+   "path": "DDS98/P2067.BIN",
+   "patch": "DDS98_P2067.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d1424977"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "782955cc"
+   }
+  },
+  {
+   "path": "DDS98/P2068.BIN",
+   "patch": "DDS98_P2068.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1e871636"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3babfd7a"
+   }
+  },
+  {
+   "path": "DDS98/P2069.BIN",
+   "patch": "DDS98_P2069.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "30668889"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e2e63183"
+   }
+  },
+  {
+   "path": "DDS98/P206A.BIN",
+   "patch": "DDS98_P206A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "cf2cc15f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4f17806b"
+   }
+  },
+  {
+   "path": "DDS98/P206B.BIN",
+   "patch": "DDS98_P206B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "368124c9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "25ff3e87"
+   }
+  },
+  {
+   "path": "DDS98/P206C.BIN",
+   "patch": "DDS98_P206C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "700c036e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ace2c41f"
+   }
+  },
+  {
+   "path": "DDS98/P206D.BIN",
+   "patch": "DDS98_P206D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "118de30d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0b2e70ac"
+   }
+  },
+  {
+   "path": "DDS98/P206E.BIN",
+   "patch": "DDS98_P206E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0f233e4c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6e62e1e4"
+   }
+  },
+  {
+   "path": "DDS98/P206F.BIN",
+   "patch": "DDS98_P206F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8f332d29"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1853c8f8"
+   }
+  },
+  {
+   "path": "DDS98/P2070.BIN",
+   "patch": "DDS98_P2070.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c73df428"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "07794cd3"
+   }
+  },
+  {
+   "path": "DDS98/P2071.BIN",
+   "patch": "DDS98_P2071.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "15589d4c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "879c4c43"
+   }
+  },
+  {
+   "path": "DDS98/P2072.BIN",
+   "patch": "DDS98_P2072.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1bcfe52d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "301e302e"
+   }
+  },
+  {
+   "path": "DDS98/P2073.BIN",
+   "patch": "DDS98_P2073.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "401516ee"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6742642c"
+   }
+  },
+  {
+   "path": "DDS98/P2074.BIN",
+   "patch": "DDS98_P2074.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "adc0f988"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a05bae49"
+   }
+  },
+  {
+   "path": "DDS98/P2075.BIN",
+   "patch": "DDS98_P2075.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0b0941d5"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "78fd47be"
+   }
+  },
+  {
+   "path": "DDS98/P2076.BIN",
+   "patch": "DDS98_P2076.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "34d6b1b4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "65e56394"
+   }
+  },
+  {
+   "path": "DDS98/P2077.BIN",
+   "patch": "DDS98_P2077.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9f8cb706"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7bed319b"
+   }
+  },
+  {
+   "path": "DDS98/P2078.BIN",
+   "patch": "DDS98_P2078.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "91b059ed"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "70f39adf"
+   }
+  },
+  {
+   "path": "DDS98/P2079.BIN",
+   "patch": "DDS98_P2079.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "be6ff75d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8defa5e3"
+   }
+  },
+  {
+   "path": "DDS98/P207A.BIN",
+   "patch": "DDS98_P207A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9e065a0b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "85906afb"
+   }
+  },
+  {
+   "path": "DDS98/P207B.BIN",
+   "patch": "DDS98_P207B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2db414e1"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e233f380"
+   }
+  },
+  {
+   "path": "DDS98/P207C.BIN",
+   "patch": "DDS98_P207C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "559282f9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5c34a353"
+   }
+  },
+  {
+   "path": "DDS98/P207D.BIN",
+   "patch": "DDS98_P207D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a3585285"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c221c31c"
+   }
+  },
+  {
+   "path": "DDS98/P207E.BIN",
+   "patch": "DDS98_P207E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d808f0c7"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5b0a565b"
+   }
+  },
+  {
+   "path": "DDS98/P207F.BIN",
+   "patch": "DDS98_P207F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "14909283"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b2ac7cb8"
+   }
+  },
+  {
+   "path": "DDS98/P2080.BIN",
+   "patch": "DDS98_P2080.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "377d376b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "56523904"
+   }
+  },
+  {
+   "path": "DDS98/P2081.BIN",
+   "patch": "DDS98_P2081.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ea47d30e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9c0ccb88"
+   }
+  },
+  {
+   "path": "DDS98/P2082.BIN",
+   "patch": "DDS98_P2082.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "feb837e2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8b332ef9"
+   }
+  },
+  {
+   "path": "DDS98/P2083.BIN",
+   "patch": "DDS98_P2083.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c76a9c06"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "423e3729"
+   }
+  },
+  {
+   "path": "DDS98/P2084.BIN",
+   "patch": "DDS98_P2084.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "50c47842"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1d1660f4"
+   }
+  },
+  {
+   "path": "DDS98/P2085.BIN",
+   "patch": "DDS98_P2085.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5c1d8841"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3a0da1d4"
+   }
+  },
+  {
+   "path": "DDS98/P2086.BIN",
+   "patch": "DDS98_P2086.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "80f606fa"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6417583b"
+   }
+  },
+  {
+   "path": "DDS98/P2087.BIN",
+   "patch": "DDS98_P2087.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2ba612a9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b9ccea7e"
+   }
+  },
+  {
+   "path": "DDS98/P2088.BIN",
+   "patch": "DDS98_P2088.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d953bfbd"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2cf51547"
+   }
+  },
+  {
+   "path": "DDS98/P2089.BIN",
+   "patch": "DDS98_P2089.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4422e5c5"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5c80df31"
+   }
+  },
+  {
+   "path": "DDS98/P208A.BIN",
+   "patch": "DDS98_P208A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "587a4e49"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b2b9847d"
+   }
+  },
+  {
+   "path": "DDS98/P208B.BIN",
+   "patch": "DDS98_P208B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c4c3fd7f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a2cc8030"
+   }
+  },
+  {
+   "path": "DDS98/P208C.BIN",
+   "patch": "DDS98_P208C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "46aa6d8d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a9c0e525"
+   }
+  },
+  {
+   "path": "DDS98/P208D.BIN",
+   "patch": "DDS98_P208D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "61899623"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8bc11fad"
+   }
+  },
+  {
+   "path": "DDS98/P208E.BIN",
+   "patch": "DDS98_P208E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3182300e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d83ddb47"
+   }
+  },
+  {
+   "path": "DDS98/P208F.BIN",
+   "patch": "DDS98_P208F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7dc7a892"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "03c48044"
+   }
+  },
+  {
+   "path": "DDS98/P2090.BIN",
+   "patch": "DDS98_P2090.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e181c52e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b27ad594"
+   }
+  },
+  {
+   "path": "DDS98/P2091.BIN",
+   "patch": "DDS98_P2091.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4bc29fb6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cddf2eb3"
+   }
+  },
+  {
+   "path": "DDS98/P2092.BIN",
+   "patch": "DDS98_P2092.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "36f4fa8c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1607fb7b"
+   }
+  },
+  {
+   "path": "DDS98/P2093.BIN",
+   "patch": "DDS98_P2093.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9db104f8"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "948304cf"
+   }
+  },
+  {
+   "path": "DDS98/P2094.BIN",
+   "patch": "DDS98_P2094.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ed4eb6fa"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "39376075"
+   }
+  },
+  {
+   "path": "DDS98/P2095.BIN",
+   "patch": "DDS98_P2095.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ccfa1b9e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8e4c8208"
+   }
+  },
+  {
+   "path": "DDS98/P2096.BIN",
+   "patch": "DDS98_P2096.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "bd247faf"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a57fc351"
+   }
+  },
+  {
+   "path": "DDS98/P2097.BIN",
+   "patch": "DDS98_P2097.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "143678d9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e7e9a089"
+   }
+  },
+  {
+   "path": "DDS98/P2098.BIN",
+   "patch": "DDS98_P2098.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "93c265b6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0c40493d"
+   }
+  },
+  {
+   "path": "DDS98/P2099.BIN",
+   "patch": "DDS98_P2099.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "80e3b5ff"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9f5382ed"
+   }
+  },
+  {
+   "path": "DDS98/P209A.BIN",
+   "patch": "DDS98_P209A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "caae3c0d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "326bd426"
+   }
+  },
+  {
+   "path": "DDS98/P209B.BIN",
+   "patch": "DDS98_P209B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9cfd1ae4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e4e8b3ed"
+   }
+  },
+  {
+   "path": "DDS98/P209C.BIN",
+   "patch": "DDS98_P209C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4a0332ad"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6edff6c3"
+   }
+  },
+  {
+   "path": "DDS98/P209D.BIN",
+   "patch": "DDS98_P209D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1423291b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3144e08a"
+   }
+  },
+  {
+   "path": "DDS98/P209E.BIN",
+   "patch": "DDS98_P209E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6b690045"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f7262693"
+   }
+  },
+  {
+   "path": "DDS98/P209F.BIN",
+   "patch": "DDS98_P209F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d829ed5e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d456c59e"
+   }
+  },
+  {
+   "path": "DDS98/P20A0.BIN",
+   "patch": "DDS98_P20A0.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "bc09f51b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8d529763"
+   }
+  },
+  {
+   "path": "DDS98/P20A1.BIN",
+   "patch": "DDS98_P20A1.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d6da1964"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a1431f1a"
+   }
+  },
+  {
+   "path": "DDS98/P20A2.BIN",
+   "patch": "DDS98_P20A2.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b9cef981"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "47ae1160"
+   }
+  },
+  {
+   "path": "DDS98/P20A3.BIN",
+   "patch": "DDS98_P20A3.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6adb0e67"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "099b0a09"
+   }
+  },
+  {
+   "path": "DDS98/P20A4.BIN",
+   "patch": "DDS98_P20A4.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1dfe9db0"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "51d90907"
+   }
+  },
+  {
+   "path": "DDS98/P20A5.BIN",
+   "patch": "DDS98_P20A5.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "144c7e2e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c72ad42f"
+   }
+  },
+  {
+   "path": "DDS98/P20A6.BIN",
+   "patch": "DDS98_P20A6.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9e8df013"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6b4001ef"
+   }
+  },
+  {
+   "path": "DDS98/P20A7.BIN",
+   "patch": "DDS98_P20A7.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f31b80c2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1a651a0b"
+   }
+  },
+  {
+   "path": "DDS98/P20A8.BIN",
+   "patch": "DDS98_P20A8.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "827608d4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2b7477b5"
+   }
+  },
+  {
+   "path": "DDS98/P20A9.BIN",
+   "patch": "DDS98_P20A9.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f0f2ecb5"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c3519d6d"
+   }
+  },
+  {
+   "path": "DDS98/P20AA.BIN",
+   "patch": "DDS98_P20AA.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e14a2eec"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f062d155"
+   }
+  },
+  {
+   "path": "DDS98/P20AB.BIN",
+   "patch": "DDS98_P20AB.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "469f4012"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "31b3d982"
+   }
+  },
+  {
+   "path": "DDS98/P20AC.BIN",
+   "patch": "DDS98_P20AC.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "907e7ef2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "114dbbb9"
+   }
+  },
+  {
+   "path": "DDS98/P20AD.BIN",
+   "patch": "DDS98_P20AD.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a5283597"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fdcbd349"
+   }
+  },
+  {
+   "path": "DDS98/P20AE.BIN",
+   "patch": "DDS98_P20AE.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "594abecf"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c847162f"
+   }
+  },
+  {
+   "path": "DDS98/P20AF.BIN",
+   "patch": "DDS98_P20AF.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5ffc0c10"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e03d0a56"
+   }
+  },
+  {
+   "path": "DDS98/P20B0.BIN",
+   "patch": "DDS98_P20B0.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "743b0c65"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3b1752c5"
+   }
+  },
+  {
+   "path": "DDS98/P20B1.BIN",
+   "patch": "DDS98_P20B1.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fc7de037"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e1a8fb2d"
+   }
+  },
+  {
+   "path": "DDS98/P20B2.BIN",
+   "patch": "DDS98_P20B2.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9612ce2e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d54c135c"
+   }
+  },
+  {
+   "path": "DDS98/P20B3.BIN",
+   "patch": "DDS98_P20B3.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e83cd7c4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d78dc87c"
+   }
+  },
+  {
+   "path": "DDS98/P20B4.BIN",
+   "patch": "DDS98_P20B4.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c838ad8f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ea0e6bfc"
+   }
+  },
+  {
+   "path": "DDS98/P20B5.BIN",
+   "patch": "DDS98_P20B5.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "90e58cbd"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "19cace9e"
+   }
+  },
+  {
+   "path": "DDS98/P20B6.BIN",
+   "patch": "DDS98_P20B6.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "57d709e8"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5e6e01ea"
+   }
+  },
+  {
+   "path": "DDS98/P20B7.BIN",
+   "patch": "DDS98_P20B7.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "076a1a1d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2faebd24"
+   }
+  },
+  {
+   "path": "DDS98/P20B8.BIN",
+   "patch": "DDS98_P20B8.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7f494fde"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9452096c"
+   }
+  },
+  {
+   "path": "DDS98/P20B9.BIN",
+   "patch": "DDS98_P20B9.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "cd72b2fd"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "303707f3"
+   }
+  },
+  {
+   "path": "DDS98/P20BA.BIN",
+   "patch": "DDS98_P20BA.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fa598d76"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "620ab797"
+   }
+  },
+  {
+   "path": "DDS98/P20BB.BIN",
+   "patch": "DDS98_P20BB.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8e61f77e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a729d410"
+   }
+  },
+  {
+   "path": "DDS98/P20BC.BIN",
+   "patch": "DDS98_P20BC.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "788ceec2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9401c8b6"
+   }
+  },
+  {
+   "path": "DDS98/P20BD.BIN",
+   "patch": "DDS98_P20BD.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1ea6857a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "bd2e1df6"
+   }
+  },
+  {
+   "path": "DDS98/P20BE.BIN",
+   "patch": "DDS98_P20BE.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d7d8b24d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1b6b423e"
+   }
+  },
+  {
+   "path": "DDS98/P20BF.BIN",
+   "patch": "DDS98_P20BF.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9a4d34cc"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7ba5ad4b"
+   }
+  },
+  {
+   "path": "DDS98/P20C0.BIN",
+   "patch": "DDS98_P20C0.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "15814788"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "446509da"
+   }
+  },
+  {
+   "path": "DDS98/P20C1.BIN",
+   "patch": "DDS98_P20C1.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "dc16e059"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8ff67923"
+   }
+  },
+  {
+   "path": "DDS98/P20C2.BIN",
+   "patch": "DDS98_P20C2.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3b764617"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e8d6d34d"
+   }
+  },
+  {
+   "path": "DDS98/P20C3.BIN",
+   "patch": "DDS98_P20C3.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2102e284"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5c96614b"
+   }
+  },
+  {
+   "path": "DDS98/P20C4.BIN",
+   "patch": "DDS98_P20C4.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e5cf747b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cbc80c4a"
+   }
+  },
+  {
+   "path": "DDS98/P20C5.BIN",
+   "patch": "DDS98_P20C5.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5c8d5089"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b20f8a02"
+   }
+  },
+  {
+   "path": "DDS98/P20C6.BIN",
+   "patch": "DDS98_P20C6.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7e31bcd9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "eb120797"
+   }
+  },
+  {
+   "path": "DDS98/P20C7.BIN",
+   "patch": "DDS98_P20C7.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9b79b631"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "177ab8d4"
+   }
+  },
+  {
+   "path": "DDS98/P20C8.BIN",
+   "patch": "DDS98_P20C8.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "82884ac6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f8df1fa7"
+   }
+  },
+  {
+   "path": "DDS98/P20C9.BIN",
+   "patch": "DDS98_P20C9.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e22350db"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fbc97363"
+   }
+  },
+  {
+   "path": "DDS98/P20CA.BIN",
+   "patch": "DDS98_P20CA.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9272dc9b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c6acd671"
+   }
+  },
+  {
+   "path": "DDS98/P20CB.BIN",
+   "patch": "DDS98_P20CB.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9e79c369"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f7802e17"
+   }
+  },
+  {
+   "path": "DDS98/P20CC.BIN",
+   "patch": "DDS98_P20CC.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "daf25a29"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b309c3f4"
+   }
+  },
+  {
+   "path": "DDS98/P20CD.BIN",
+   "patch": "DDS98_P20CD.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "853ac2b1"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cfcbf73e"
+   }
+  },
+  {
+   "path": "DDS98/P20CE.BIN",
+   "patch": "DDS98_P20CE.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "dfa48e0e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9d336eec"
+   }
+  },
+  {
+   "path": "DDS98/P20CF.BIN",
+   "patch": "DDS98_P20CF.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f0f60320"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8694d154"
+   }
+  },
+  {
+   "path": "DDS98/P20D0.BIN",
+   "patch": "DDS98_P20D0.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1024160e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c15aefaf"
+   }
+  },
+  {
+   "path": "DDS98/P20D1.BIN",
+   "patch": "DDS98_P20D1.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7f2d5b2d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "39f4d66e"
+   }
+  },
+  {
+   "path": "DDS98/P20D2.BIN",
+   "patch": "DDS98_P20D2.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "26af6e30"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3fd4a79d"
+   }
+  },
+  {
+   "path": "DDS98/P20D3.BIN",
+   "patch": "DDS98_P20D3.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1de7db9e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "62d60edd"
+   }
+  },
+  {
+   "path": "DDS98/P20D4.BIN",
+   "patch": "DDS98_P20D4.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ee20bd12"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fcae26f0"
+   }
+  },
+  {
+   "path": "DDS98/P20D5.BIN",
+   "patch": "DDS98_P20D5.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3d4ae84f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "767a172a"
+   }
+  },
+  {
+   "path": "DDS98/P20D6.BIN",
+   "patch": "DDS98_P20D6.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7557a5be"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4505dac7"
+   }
+  },
+  {
+   "path": "DDS98/P20D7.BIN",
+   "patch": "DDS98_P20D7.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "80fddc16"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "19d840db"
+   }
+  },
+  {
+   "path": "DDS98/P20D8.BIN",
+   "patch": "DDS98_P20D8.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2e25a31b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6e41e49d"
+   }
+  },
+  {
+   "path": "DDS98/P20D9.BIN",
+   "patch": "DDS98_P20D9.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e29626c8"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "132263c0"
+   }
+  },
+  {
+   "path": "DDS98/P20DA.BIN",
+   "patch": "DDS98_P20DA.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5c2bcfb2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e03fd40c"
+   }
+  },
+  {
+   "path": "DDS98/P20DB.BIN",
+   "patch": "DDS98_P20DB.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5b04f73d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f530e5b4"
+   }
+  },
+  {
+   "path": "DDS98/P20DC.BIN",
+   "patch": "DDS98_P20DC.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4e0848fc"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "55e52f5b"
+   }
+  },
+  {
+   "path": "DDS98/P20DD.BIN",
+   "patch": "DDS98_P20DD.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "dc424f4e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3401eed6"
+   }
+  },
+  {
+   "path": "DDS98/P20DE.BIN",
+   "patch": "DDS98_P20DE.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "16145b78"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7015d1c8"
+   }
+  },
+  {
+   "path": "DDS98/P20DF.BIN",
+   "patch": "DDS98_P20DF.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ec065d10"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9e38c28a"
+   }
+  },
+  {
+   "path": "DDS98/P20E0.BIN",
+   "patch": "DDS98_P20E0.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "49102523"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e5e52349"
+   }
+  },
+  {
+   "path": "DDS98/P20E1.BIN",
+   "patch": "DDS98_P20E1.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9de31887"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2848d9c2"
+   }
+  },
+  {
+   "path": "DDS98/P20E2.BIN",
+   "patch": "DDS98_P20E2.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "dc2e3d15"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7feae2a3"
+   }
+  },
+  {
+   "path": "DDS98/P20E3.BIN",
+   "patch": "DDS98_P20E3.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "21e888f7"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f622e078"
+   }
+  },
+  {
+   "path": "DDS98/P20E4.BIN",
+   "patch": "DDS98_P20E4.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f8fb63f3"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "68aa7c86"
+   }
+  },
+  {
+   "path": "DDS98/P20E5.BIN",
+   "patch": "DDS98_P20E5.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a8ebc2ff"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "682b4172"
+   }
+  },
+  {
+   "path": "DDS98/P20E6.BIN",
+   "patch": "DDS98_P20E6.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d2e46b88"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "bf8dfd8b"
+   }
+  },
+  {
+   "path": "DDS98/P20E7.BIN",
+   "patch": "DDS98_P20E7.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fea166d6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b2473282"
+   }
+  },
+  {
+   "path": "DDS98/P20E8.BIN",
+   "patch": "DDS98_P20E8.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d003e3e4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "032b217d"
+   }
+  },
+  {
+   "path": "DDS98/P20E9.BIN",
+   "patch": "DDS98_P20E9.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "731ecd85"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a1f113cc"
+   }
+  },
+  {
+   "path": "DDS98/P20EA.BIN",
+   "patch": "DDS98_P20EA.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e87f837c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fcf905fd"
+   }
+  },
+  {
+   "path": "DDS98/P20EB.BIN",
+   "patch": "DDS98_P20EB.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d7868ae4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b1dbb3b0"
+   }
+  },
+  {
+   "path": "DDS98/P20EC.BIN",
+   "patch": "DDS98_P20EC.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fb428269"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "70351561"
+   }
+  },
+  {
+   "path": "DDS98/P20ED.BIN",
+   "patch": "DDS98_P20ED.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "440bae58"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f45f2e15"
+   }
+  },
+  {
+   "path": "DDS98/P20EE.BIN",
+   "patch": "DDS98_P20EE.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ad3ce1e0"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e68651b1"
+   }
+  },
+  {
+   "path": "DDS98/P20EF.BIN",
+   "patch": "DDS98_P20EF.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "120d5cca"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c67c5d97"
+   }
+  },
+  {
+   "path": "DDS98/P20F0.BIN",
+   "patch": "DDS98_P20F0.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d182bb78"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "677d008a"
+   }
+  },
+  {
+   "path": "DDS98/P20F1.BIN",
+   "patch": "DDS98_P20F1.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c60a265a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "904dd872"
+   }
+  },
+  {
+   "path": "DDS98/P20F2.BIN",
+   "patch": "DDS98_P20F2.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "392d3f5d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cfd17b2c"
+   }
+  },
+  {
+   "path": "DDS98/P20F3.BIN",
+   "patch": "DDS98_P20F3.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "cb00c7a6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7b5447eb"
+   }
+  },
+  {
+   "path": "DDS98/P20F4.BIN",
+   "patch": "DDS98_P20F4.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8189dbeb"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "31dd5ba6"
+   }
+  },
+  {
+   "path": "DDS98/P20F5.BIN",
+   "patch": "DDS98_P20F5.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "10d3b2c2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a087328f"
+   }
+  },
+  {
+   "path": "DDS98/P20F6.BIN",
+   "patch": "DDS98_P20F6.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b8654a2b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8c1a6600"
+   }
+  },
+  {
+   "path": "DDS98/P20F7.BIN",
+   "patch": "DDS98_P20F7.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "54e6e2ff"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cbc4eac3"
+   }
+  },
+  {
+   "path": "DDS98/P20F8.BIN",
+   "patch": "DDS98_P20F8.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a14fc3e6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8cc8a339"
+   }
+  },
+  {
+   "path": "DDS98/P20F9.BIN",
+   "patch": "DDS98_P20F9.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8d3d868a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7f299aa8"
+   }
+  },
+  {
+   "path": "DDS98/P20FA.BIN",
+   "patch": "DDS98_P20FA.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "60d36cb7"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f7c21e38"
+   }
+  },
+  {
+   "path": "DDS98/P20FB.BIN",
+   "patch": "DDS98_P20FB.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "178f23d4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4351293e"
+   }
+  },
+  {
+   "path": "DDS98/P20FC.BIN",
+   "patch": "DDS98_P20FC.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8d59471a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1e5837c3"
+   }
+  },
+  {
+   "path": "DDS98/P20FD.BIN",
+   "patch": "DDS98_P20FD.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2dbdb07a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "bebcc0a3"
+   }
+  },
+  {
+   "path": "DDS98/P20FE.BIN",
+   "patch": "DDS98_P20FE.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b98f0f38"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9a010e71"
+   }
+  },
+  {
+   "path": "DDS98/P20FF.BIN",
+   "patch": "DDS98_P20FF.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "88097430"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9feb69b0"
+   }
+  },
+  {
+   "path": "DDS98/P2100.BIN",
+   "patch": "DDS98_P2100.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1fd6109b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "69876532"
+   }
+  },
+  {
+   "path": "DDS98/P2101.BIN",
+   "patch": "DDS98_P2101.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d58bcd56"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "def43796"
+   }
+  },
+  {
+   "path": "DDS98/P2102.BIN",
+   "patch": "DDS98_P2102.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "624b1feb"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "29705094"
+   }
+  },
+  {
+   "path": "DDS98/P2103.BIN",
+   "patch": "DDS98_P2103.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f3551e01"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1225e00f"
+   }
+  },
+  {
+   "path": "DDS98/P2104.BIN",
+   "patch": "DDS98_P2104.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "883fb538"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d39eef54"
+   }
+  },
+  {
+   "path": "DDS98/P2105.BIN",
+   "patch": "DDS98_P2105.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "357495bd"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "eae8d98d"
+   }
+  },
+  {
+   "path": "DDS98/P2106.BIN",
+   "patch": "DDS98_P2106.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "96128b8f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "24dc243e"
+   }
+  },
+  {
+   "path": "DDS98/P2107.BIN",
+   "patch": "DDS98_P2107.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0c128819"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "28ed17b4"
+   }
+  },
+  {
+   "path": "DDS98/P2108.BIN",
+   "patch": "DDS98_P2108.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "35f2a206"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "86f3fbbf"
+   }
+  },
+  {
+   "path": "DDS98/P2109.BIN",
+   "patch": "DDS98_P2109.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "881f5d87"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d5ecb07a"
+   }
+  },
+  {
+   "path": "DDS98/P210A.BIN",
+   "patch": "DDS98_P210A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "36119b4e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e1c8d1c2"
+   }
+  },
+  {
+   "path": "DDS98/P210B.BIN",
+   "patch": "DDS98_P210B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "bfd81c9f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "01ab7341"
+   }
+  },
+  {
+   "path": "DDS98/P210C.BIN",
+   "patch": "DDS98_P210C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e594f1a9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ecf5f62c"
+   }
+  },
+  {
+   "path": "DDS98/P210D.BIN",
+   "patch": "DDS98_P210D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b0b31ada"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b933fa81"
+   }
+  },
+  {
+   "path": "DDS98/P210E.BIN",
+   "patch": "DDS98_P210E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f0ade018"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "39df01f0"
+   }
+  },
+  {
+   "path": "DDS98/P210F.BIN",
+   "patch": "DDS98_P210F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9972fddf"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "63f7f694"
+   }
+  },
+  {
+   "path": "DDS98/P2111.BIN",
+   "patch": "DDS98_P2111.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "44a30f9a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "970fe49a"
+   }
+  },
+  {
+   "path": "DDS98/P2112.BIN",
+   "patch": "DDS98_P2112.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "dbefbcb7"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a9f60d37"
+   }
+  },
+  {
+   "path": "DDS98/P2113.BIN",
+   "patch": "DDS98_P2113.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1cef23f8"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "231c1816"
+   }
+  },
+  {
+   "path": "DDS98/P2114.BIN",
+   "patch": "DDS98_P2114.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e1036982"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8c3a769c"
+   }
+  },
+  {
+   "path": "DDS98/P2115.BIN",
+   "patch": "DDS98_P2115.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "799e938a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "667a320d"
+   }
+  },
+  {
+   "path": "DDS98/P2116.BIN",
+   "patch": "DDS98_P2116.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8966f818"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5153667c"
+   }
+  },
+  {
+   "path": "DDS98/P2117.BIN",
+   "patch": "DDS98_P2117.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9f4616c0"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "04b3aa27"
+   }
+  },
+  {
+   "path": "DDS98/P2118.BIN",
+   "patch": "DDS98_P2118.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "dcdf76e6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a8c28f74"
+   }
+  },
+  {
+   "path": "DDS98/P2119.BIN",
+   "patch": "DDS98_P2119.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "760e0489"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "97ee7e23"
+   }
+  },
+  {
+   "path": "DDS98/P211A.BIN",
+   "patch": "DDS98_P211A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1fc654fe"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "66994d6b"
+   }
+  },
+  {
+   "path": "DDS98/P211B.BIN",
+   "patch": "DDS98_P211B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "639d86a9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "656f0309"
+   }
+  },
+  {
+   "path": "DDS98/P211C.BIN",
+   "patch": "DDS98_P211C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1bcf4200"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8653b826"
+   }
+  },
+  {
+   "path": "DDS98/P211D.BIN",
+   "patch": "DDS98_P211D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0ca9b283"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ee98d490"
+   }
+  },
+  {
+   "path": "DDS98/P211E.BIN",
+   "patch": "DDS98_P211E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e03349d2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c04d27bd"
+   }
+  },
+  {
+   "path": "DDS98/P211F.BIN",
+   "patch": "DDS98_P211F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d714cd02"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "34b921a3"
+   }
+  },
+  {
+   "path": "DDS98/P2120.BIN",
+   "patch": "DDS98_P2120.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "25d3051a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "94334495"
+   }
+  },
+  {
+   "path": "DDS98/P2121.BIN",
+   "patch": "DDS98_P2121.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e76a5919"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0c6d0d6b"
+   }
+  },
+  {
+   "path": "DDS98/P2122.BIN",
+   "patch": "DDS98_P2122.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b2081d59"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4f849659"
+   }
+  },
+  {
+   "path": "DDS98/P2123.BIN",
+   "patch": "DDS98_P2123.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b3eb49ae"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "eccd54c4"
+   }
+  },
+  {
+   "path": "DDS98/P2124.BIN",
+   "patch": "DDS98_P2124.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7bacec17"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4480fd39"
+   }
+  },
+  {
+   "path": "DDS98/P2125.BIN",
+   "patch": "DDS98_P2125.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8ee1a76f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e2e19ad8"
+   }
+  },
+  {
+   "path": "DDS98/P2126.BIN",
+   "patch": "DDS98_P2126.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "543985e0"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4d52aa3f"
+   }
+  },
+  {
+   "path": "DDS98/P2127.BIN",
+   "patch": "DDS98_P2127.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6b9060fc"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "bda00591"
+   }
+  },
+  {
+   "path": "DDS98/P2128.BIN",
+   "patch": "DDS98_P2128.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f5a8c845"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "77c998aa"
+   }
+  },
+  {
+   "path": "DDS98/P2129.BIN",
+   "patch": "DDS98_P2129.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ffb28c2e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9e389e22"
+   }
+  },
+  {
+   "path": "DDS98/P212A.BIN",
+   "patch": "DDS98_P212A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3dd56235"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c9d1b1b4"
+   }
+  },
+  {
+   "path": "DDS98/P212B.BIN",
+   "patch": "DDS98_P212B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d2d670f2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "86187328"
+   }
+  },
+  {
+   "path": "DDS98/P212C.BIN",
+   "patch": "DDS98_P212C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9186bf16"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3ce8ddf3"
+   }
+  },
+  {
+   "path": "DDS98/P212D.BIN",
+   "patch": "DDS98_P212D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3daaa66b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ff747fc7"
+   }
+  },
+  {
+   "path": "DDS98/P212E.BIN",
+   "patch": "DDS98_P212E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ebcd6796"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d1d43c50"
+   }
+  },
+  {
+   "path": "DDS98/P212F.BIN",
+   "patch": "DDS98_P212F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "868393b8"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4bb0c039"
+   }
+  },
+  {
+   "path": "DDS98/P2130.BIN",
+   "patch": "DDS98_P2130.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ae9a3021"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "bfe2e15a"
+   }
+  },
+  {
+   "path": "DDS98/P2131.BIN",
+   "patch": "DDS98_P2131.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "db1a9570"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f351b784"
+   }
+  },
+  {
+   "path": "DDS98/P2132.BIN",
+   "patch": "DDS98_P2132.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7f0ce72c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1ac85c73"
+   }
+  },
+  {
+   "path": "DDS98/P2133.BIN",
+   "patch": "DDS98_P2133.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a6faa25e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "801795e2"
+   }
+  },
+  {
+   "path": "DDS98/P2134.BIN",
+   "patch": "DDS98_P2134.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4dce8954"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "350b8ac5"
+   }
+  },
+  {
+   "path": "DDS98/P2135.BIN",
+   "patch": "DDS98_P2135.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9610388e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "75da278f"
+   }
+  },
+  {
+   "path": "DDS98/P2136.BIN",
+   "patch": "DDS98_P2136.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a89c8609"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f9f7c63c"
+   }
+  },
+  {
+   "path": "DDS98/P2137.BIN",
+   "patch": "DDS98_P2137.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "35c07940"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ad6bfc36"
+   }
+  },
+  {
+   "path": "DDS98/P2138.BIN",
+   "patch": "DDS98_P2138.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7444b1dd"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1d339614"
+   }
+  },
+  {
+   "path": "DDS98/P2139.BIN",
+   "patch": "DDS98_P2139.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "07fa96c2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "97f59d35"
+   }
+  },
+  {
+   "path": "DDS98/P213A.BIN",
+   "patch": "DDS98_P213A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a01a0ff2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "12f3beb7"
+   }
+  },
+  {
+   "path": "DDS98/P213B.BIN",
+   "patch": "DDS98_P213B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0af85b4d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "40ab1c5e"
+   }
+  },
+  {
+   "path": "DDS98/P213C.BIN",
+   "patch": "DDS98_P213C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a7be00ec"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9708cdcf"
+   }
+  },
+  {
+   "path": "DDS98/P213D.BIN",
+   "patch": "DDS98_P213D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0677c14f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "912ea701"
+   }
+  },
+  {
+   "path": "DDS98/P213E.BIN",
+   "patch": "DDS98_P213E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f3b38dd6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ee31d163"
+   }
+  },
+  {
+   "path": "DDS98/P213F.BIN",
+   "patch": "DDS98_P213F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e82bfca4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "036c0c1e"
+   }
+  },
+  {
+   "path": "DDS98/P2140.BIN",
+   "patch": "DDS98_P2140.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e62d1437"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7dfec721"
+   }
+  },
+  {
+   "path": "DDS98/P2141.BIN",
+   "patch": "DDS98_P2141.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e873151e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0203edaf"
+   }
+  },
+  {
+   "path": "DDS98/P2142.BIN",
+   "patch": "DDS98_P2142.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e8b3926c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "bbad34f8"
+   }
+  },
+  {
+   "path": "DDS98/P2143.BIN",
+   "patch": "DDS98_P2143.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e3d9b4c2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e1bd31da"
+   }
+  },
+  {
+   "path": "DDS98/P2144.BIN",
+   "patch": "DDS98_P2144.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "995c571d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "17b8e525"
+   }
+  },
+  {
+   "path": "DDS98/P2145.BIN",
+   "patch": "DDS98_P2145.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "519a5d85"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "31637792"
+   }
+  },
+  {
+   "path": "DDS98/P2146.BIN",
+   "patch": "DDS98_P2146.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6879928d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "aff51c7e"
+   }
+  },
+  {
+   "path": "DDS98/P2147.BIN",
+   "patch": "DDS98_P2147.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c07ba9da"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6cab5a71"
+   }
+  },
+  {
+   "path": "DDS98/P2148.BIN",
+   "patch": "DDS98_P2148.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "02d225aa"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0000fe58"
+   }
+  },
+  {
+   "path": "DDS98/P2149.BIN",
+   "patch": "DDS98_P2149.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8b72a393"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "03cbf4be"
+   }
+  },
+  {
+   "path": "DDS98/P214A.BIN",
+   "patch": "DDS98_P214A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "70c53707"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3b82edfe"
+   }
+  },
+  {
+   "path": "DDS98/P214B.BIN",
+   "patch": "DDS98_P214B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "172f3af8"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "04b79817"
+   }
+  },
+  {
+   "path": "DDS98/P214C.BIN",
+   "patch": "DDS98_P214C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9e06f648"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "440cb885"
+   }
+  },
+  {
+   "path": "DDS98/P214D.BIN",
+   "patch": "DDS98_P214D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9698a3a5"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "64612cc5"
+   }
+  },
+  {
+   "path": "DDS98/P214E.BIN",
+   "patch": "DDS98_P214E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "410f1d55"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e5e8c648"
+   }
+  },
+  {
+   "path": "DDS98/P214F.BIN",
+   "patch": "DDS98_P214F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d6b88427"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fa91ea33"
+   }
+  },
+  {
+   "path": "DDS98/P2150.BIN",
+   "patch": "DDS98_P2150.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "20b51ba1"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "92818c43"
+   }
+  },
+  {
+   "path": "DDS98/P2151.BIN",
+   "patch": "DDS98_P2151.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "17af3055"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "07e8b240"
+   }
+  },
+  {
+   "path": "DDS98/P2152.BIN",
+   "patch": "DDS98_P2152.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c43d0415"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "52088d22"
+   }
+  },
+  {
+   "path": "DDS98/P2153.BIN",
+   "patch": "DDS98_P2153.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2f78dadd"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4a1a7e0a"
+   }
+  },
+  {
+   "path": "DDS98/P2154.BIN",
+   "patch": "DDS98_P2154.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "304a9eb6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5d9260d2"
+   }
+  },
+  {
+   "path": "DDS98/P2155.BIN",
+   "patch": "DDS98_P2155.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3ec9302c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7a342b04"
+   }
+  },
+  {
+   "path": "DDS98/P2156.BIN",
+   "patch": "DDS98_P2156.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b129afef"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7cbdcb48"
+   }
+  },
+  {
+   "path": "DDS98/P2157.BIN",
+   "patch": "DDS98_P2157.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "323aa16f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "830cb2c2"
+   }
+  },
+  {
+   "path": "DDS98/P2158.BIN",
+   "patch": "DDS98_P2158.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "bbec3e60"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1a006f34"
+   }
+  },
+  {
+   "path": "DDS98/P2159.BIN",
+   "patch": "DDS98_P2159.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "daf1e902"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "332caff7"
+   }
+  },
+  {
+   "path": "DDS98/P215A.BIN",
+   "patch": "DDS98_P215A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7ba0cf5d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "79811e58"
+   }
+  },
+  {
+   "path": "DDS98/P215B.BIN",
+   "patch": "DDS98_P215B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "65b8d32e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a786fce6"
+   }
+  },
+  {
+   "path": "DDS98/P215C.BIN",
+   "patch": "DDS98_P215C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d7300f67"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "3d1f9271"
+   }
+  },
+  {
+   "path": "DDS98/P215D.BIN",
+   "patch": "DDS98_P215D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "628a7ada"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "f145ed85"
+   }
+  },
+  {
+   "path": "DDS98/P215E.BIN",
+   "patch": "DDS98_P215E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1d42812a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d7e119c0"
+   }
+  },
+  {
+   "path": "DDS98/P215F.BIN",
+   "patch": "DDS98_P215F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ed71b3bd"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c58b2d45"
+   }
+  },
+  {
+   "path": "DDS98/P2160.BIN",
+   "patch": "DDS98_P2160.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "cd942247"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4b0ed112"
+   }
+  },
+  {
+   "path": "DDS98/P2161.BIN",
+   "patch": "DDS98_P2161.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "10dd0455"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "89650b13"
+   }
+  },
+  {
+   "path": "DDS98/P2162.BIN",
+   "patch": "DDS98_P2162.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4df4c6e6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "06ec6653"
+   }
+  },
+  {
+   "path": "DDS98/P2163.BIN",
+   "patch": "DDS98_P2163.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "42ec37a6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "90c96ae6"
+   }
+  },
+  {
+   "path": "DDS98/P2164.BIN",
+   "patch": "DDS98_P2164.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "02d13d44"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "223d34d1"
+   }
+  },
+  {
+   "path": "DDS98/P2165.BIN",
+   "patch": "DDS98_P2165.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "929d6240"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fb6a032d"
+   }
+  },
+  {
+   "path": "DDS98/P2166.BIN",
+   "patch": "DDS98_P2166.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d05f302d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "b28439c7"
+   }
+  },
+  {
+   "path": "DDS98/P2167.BIN",
+   "patch": "DDS98_P2167.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "04433856"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "302d642b"
+   }
+  },
+  {
+   "path": "DDS98/P2168.BIN",
+   "patch": "DDS98_P2168.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0c21b0b2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0d869ce5"
+   }
+  },
+  {
+   "path": "DDS98/P2169.BIN",
+   "patch": "DDS98_P2169.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "745ce391"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "1f436d85"
+   }
+  },
+  {
+   "path": "DDS98/P216A.BIN",
+   "patch": "DDS98_P216A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "10ae5ca9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "608bf082"
+   }
+  },
+  {
+   "path": "DDS98/P216B.BIN",
+   "patch": "DDS98_P216B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "7d2a7e84"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "156fa8eb"
+   }
+  },
+  {
+   "path": "DDS98/P216C.BIN",
+   "patch": "DDS98_P216C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "30a0af88"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "84b9c111"
+   }
+  },
+  {
+   "path": "DDS98/P216D.BIN",
+   "patch": "DDS98_P216D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fcad8317"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "bf1d8ee8"
+   }
+  },
+  {
+   "path": "DDS98/P216E.BIN",
+   "patch": "DDS98_P216E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "23fd8551"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "67b36dbf"
+   }
+  },
+  {
+   "path": "DDS98/P216F.BIN",
+   "patch": "DDS98_P216F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1e83c851"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5c9493d4"
+   }
+  },
+  {
+   "path": "DDS98/P2170.BIN",
+   "patch": "DDS98_P2170.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "170c7bc5"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cca1ae3f"
+   }
+  },
+  {
+   "path": "DDS98/P2171.BIN",
+   "patch": "DDS98_P2171.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ab76ab3a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "60df98c5"
+   }
+  },
+  {
+   "path": "DDS98/P2172.BIN",
+   "patch": "DDS98_P2172.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0431c023"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2a0e413d"
+   }
+  },
+  {
+   "path": "DDS98/P2173.BIN",
+   "patch": "DDS98_P2173.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9fac890b"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "43870eb6"
+   }
+  },
+  {
+   "path": "DDS98/P2174.BIN",
+   "patch": "DDS98_P2174.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "062336bb"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5d7b73db"
+   }
+  },
+  {
+   "path": "DDS98/P2175.BIN",
+   "patch": "DDS98_P2175.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "520b53f9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c505d0e4"
+   }
+  },
+  {
+   "path": "DDS98/P2176.BIN",
+   "patch": "DDS98_P2176.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b57945d3"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "26239e50"
+   }
+  },
+  {
+   "path": "DDS98/P2177.BIN",
+   "patch": "DDS98_P2177.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0205d3a4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "595d96c4"
+   }
+  },
+  {
+   "path": "DDS98/P2178.BIN",
+   "patch": "DDS98_P2178.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "c6c0fd5d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c589ee7f"
+   }
+  },
+  {
+   "path": "DDS98/P2179.BIN",
+   "patch": "DDS98_P2179.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1ce855f2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "396f3d32"
+   }
+  },
+  {
+   "path": "DDS98/P217A.BIN",
+   "patch": "DDS98_P217A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "211900f9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "86d8b6d4"
+   }
+  },
+  {
+   "path": "DDS98/P217B.BIN",
+   "patch": "DDS98_P217B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0f0a5971"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d729ab26"
+   }
+  },
+  {
+   "path": "DDS98/P217C.BIN",
+   "patch": "DDS98_P217C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "a1f5ab38"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "217d90ad"
+   }
+  },
+  {
+   "path": "DDS98/P217D.BIN",
+   "patch": "DDS98_P217D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4f75b30f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "487d9b16"
+   }
+  },
+  {
+   "path": "DDS98/P217E.BIN",
+   "patch": "DDS98_P217E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6a883d4c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "36b72fb6"
+   }
+  },
+  {
+   "path": "DDS98/P217F.BIN",
+   "patch": "DDS98_P217F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "afec9d94"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d182e858"
+   }
+  },
+  {
+   "path": "DDS98/P2180.BIN",
+   "patch": "DDS98_P2180.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3326ee21"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "39d036d6"
+   }
+  },
+  {
+   "path": "DDS98/P2181.BIN",
+   "patch": "DDS98_P2181.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "92cb171d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c993527d"
+   }
+  },
+  {
+   "path": "DDS98/P2182.BIN",
+   "patch": "DDS98_P2182.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "292ce024"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e67f82ed"
+   }
+  },
+  {
+   "path": "DDS98/P2183.BIN",
+   "patch": "DDS98_P2183.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f4be156d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "146eb10e"
+   }
+  },
+  {
+   "path": "DDS98/P2184.BIN",
+   "patch": "DDS98_P2184.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ba76535e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0ce4647f"
+   }
+  },
+  {
+   "path": "DDS98/P2185.BIN",
+   "patch": "DDS98_P2185.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2d52bfd0"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e1b93923"
+   }
+  },
+  {
+   "path": "DDS98/P2186.BIN",
+   "patch": "DDS98_P2186.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ff2943ff"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e3efae2f"
+   }
+  },
+  {
+   "path": "DDS98/P2187.BIN",
+   "patch": "DDS98_P2187.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "52f0a3a3"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "080fa9da"
+   }
+  },
+  {
+   "path": "DDS98/P2188.BIN",
+   "patch": "DDS98_P2188.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3c1d28c4"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ed6084b9"
+   }
+  },
+  {
+   "path": "DDS98/P2189.BIN",
+   "patch": "DDS98_P2189.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b6f3c86d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d47530c2"
+   }
+  },
+  {
+   "path": "DDS98/P218A.BIN",
+   "patch": "DDS98_P218A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "ab82ec28"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "9802be96"
+   }
+  },
+  {
+   "path": "DDS98/P218B.BIN",
+   "patch": "DDS98_P218B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8b5f7ea2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "440c1c6b"
+   }
+  },
+  {
+   "path": "DDS98/P218C.BIN",
+   "patch": "DDS98_P218C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fa627a6a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a8deea7e"
+   }
+  },
+  {
+   "path": "DDS98/P218D.BIN",
+   "patch": "DDS98_P218D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6a55c3a8"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8a10e97a"
+   }
+  },
+  {
+   "path": "DDS98/P218E.BIN",
+   "patch": "DDS98_P218E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f11e6f2a"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5ee9d72b"
+   }
+  },
+  {
+   "path": "DDS98/P218F.BIN",
+   "patch": "DDS98_P218F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b65ddc59"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "03cafb8b"
+   }
+  },
+  {
+   "path": "DDS98/P2190.BIN",
+   "patch": "DDS98_P2190.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "e1d93119"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "539c723d"
+   }
+  },
+  {
+   "path": "DDS98/P2191.BIN",
+   "patch": "DDS98_P2191.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0def5d7e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ed99ac81"
+   }
+  },
+  {
+   "path": "DDS98/P2192.BIN",
+   "patch": "DDS98_P2192.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "940c862c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fdb77c89"
+   }
+  },
+  {
+   "path": "DDS98/P2193.BIN",
+   "patch": "DDS98_P2193.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "4eff4e06"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cecb94c5"
+   }
+  },
+  {
+   "path": "DDS98/P2194.BIN",
+   "patch": "DDS98_P2194.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f19d6042"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c3c99454"
+   }
+  },
+  {
+   "path": "DDS98/P2195.BIN",
+   "patch": "DDS98_P2195.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "f037a5b3"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "35affe2f"
+   }
+  },
+  {
+   "path": "DDS98/P2196.BIN",
+   "patch": "DDS98_P2196.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0980b182"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "22bc5012"
+   }
+  },
+  {
+   "path": "DDS98/P2197.BIN",
+   "patch": "DDS98_P2197.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "83876199"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "c54f5509"
+   }
+  },
+  {
+   "path": "DDS98/P2198.BIN",
+   "patch": "DDS98_P2198.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3303131f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "8e2c1f4c"
+   }
+  },
+  {
+   "path": "DDS98/P2199.BIN",
+   "patch": "DDS98_P2199.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "814f82d3"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "faea17de"
+   }
+  },
+  {
+   "path": "DDS98/P219A.BIN",
+   "patch": "DDS98_P219A.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d6662e8e"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "a3ef36f9"
+   }
+  },
+  {
+   "path": "DDS98/P219B.BIN",
+   "patch": "DDS98_P219B.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3eddf57d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "29d4d6ed"
+   }
+  },
+  {
+   "path": "DDS98/P219C.BIN",
+   "patch": "DDS98_P219C.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "5f1006b6"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "d2703111"
+   }
+  },
+  {
+   "path": "DDS98/P219D.BIN",
+   "patch": "DDS98_P219D.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1c444359"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "5c0acfad"
+   }
+  },
+  {
+   "path": "DDS98/P219E.BIN",
+   "patch": "DDS98_P219E.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "1939e764"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ae260f95"
+   }
+  },
+  {
+   "path": "DDS98/P219F.BIN",
+   "patch": "DDS98_P219F.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6571741c"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "4d766835"
+   }
+  },
+  {
+   "path": "DDS98/P21A0.BIN",
+   "patch": "DDS98_P21A0.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "fbc50a8d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "efa6f850"
+   }
+  },
+  {
+   "path": "DDS98/P21A1.BIN",
+   "patch": "DDS98_P21A1.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8148b141"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0173f075"
+   }
+  },
+  {
+   "path": "DDS98/P21A2.BIN",
+   "patch": "DDS98_P21A2.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d7c6026f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0b28c51e"
+   }
+  },
+  {
+   "path": "DDS98/P21A3.BIN",
+   "patch": "DDS98_P21A3.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3fe4fed5"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "25476d74"
+   }
+  },
+  {
+   "path": "DDS98/P21A4.BIN",
+   "patch": "DDS98_P21A4.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "60912e7f"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "7a32bdde"
+   }
+  },
+  {
+   "path": "DDS98/P21A5.BIN",
+   "patch": "DDS98_P21A5.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2d465a24"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "cef70587"
+   }
+  },
+  {
+   "path": "DDS98/P21A6.BIN",
+   "patch": "DDS98_P21A6.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "3b11afa7"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "6a227d87"
+   }
+  },
+  {
+   "path": "DDS98/P21A7.BIN",
+   "patch": "DDS98_P21A7.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "b9496603"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "580aa531"
+   }
+  },
+  {
+   "path": "DDS98/P21A8.BIN",
+   "patch": "DDS98_P21A8.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "9144cd53"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "e7261f27"
+   }
+  },
+  {
+   "path": "DDS98/P21A9.BIN",
+   "patch": "DDS98_P21A9.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "6c3d95e9"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "fb3316f4"
+   }
+  },
+  {
+   "path": "DDS98/P21AA.BIN",
+   "patch": "DDS98_P21AA.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "2e6ac7d2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "2d23d4f0"
+   }
+  },
+  {
+   "path": "DDS98/P21AB.BIN",
+   "patch": "DDS98_P21AB.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "8217bce2"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "25d60acf"
+   }
+  },
+  {
+   "path": "DDS98/P21AC.BIN",
+   "patch": "DDS98_P21AC.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "d82ae71d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ada3ff6a"
+   }
+  },
+  {
+   "path": "DDS98/P21AD.BIN",
+   "patch": "DDS98_P21AD.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "0117ab3d"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "75780c01"
+   }
+  },
+  {
+   "path": "DDS98/P21AE.BIN",
+   "patch": "DDS98_P21AE.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "abbac5fe"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "0fd0595a"
+   }
+  },
+  {
+   "path": "DDS98/P21AF.BIN",
+   "patch": "DDS98_P21AF.BIN.bps",
+   "source": {
+    "size": 124,
+    "crc32": "36914fb5"
+   },
+   "target": {
+    "size": 124,
+    "crc32": "ea936ca4"
+   }
+  },
+  {
+   "path": "DDS98/MS7F02.BIN",
+   "patch": "DDS98_MS7F02.BIN.bps",
+   "source": {
+    "size": 194,
+    "crc32": "2a3bbbd9"
+   },
+   "target": {
+    "size": 4663,
+    "crc32": "03d6952c"
+   }
+  },
+  {
+   "path": "DDS98/MS7F00.BIN",
+   "patch": "DDS98_MS7F00.BIN.bps",
+   "source": {
+    "size": 636,
+    "crc32": "ace8e0bc"
+   },
+   "target": {
+    "size": 4307,
+    "crc32": "d5309346"
+   }
+  },
+  {
+   "path": "DDS98/MS7F05.BIN",
+   "patch": "DDS98_MS7F05.BIN.bps",
+   "source": {
+    "size": 14,
+    "crc32": "053f920c"
+   },
+   "target": {
+    "size": 4670,
+    "crc32": "aa6e2fc2"
+   }
+  },
+  {
+   "path": "DDS98/A0001.BIN",
+   "patch": "DDS98_A0001.BIN.bps",
+   "source": {
+    "size": 4096,
+    "crc32": "bec5aa43"
+   },
+   "target": {
+    "size": 4096,
+    "crc32": "611a01ac"
+   }
+  },
+  {
+   "path": "DDS98/FC0000.BIN",
+   "patch": "DDS98_FC0000.BIN.bps",
+   "source": {
+    "size": 95668,
+    "crc32": "e8ef51e3"
+   },
+   "target": {
+    "size": 96127,
+    "crc32": "2e568622"
+   }
+  },
+  {
+   "path": "DDS98/FC0010.BIN",
+   "patch": "DDS98_FC0010.BIN.bps",
+   "source": {
+    "size": 14083,
+    "crc32": "7035738d"
+   },
+   "target": {
+    "size": 20702,
+    "crc32": "aae006fb"
+   }
+  },
+  {
+   "path": "DDS98/FC0110.BIN",
+   "patch": "DDS98_FC0110.BIN.bps",
+   "source": {
+    "size": 45334,
+    "crc32": "7f2c8240"
+   },
+   "target": {
+    "size": 47451,
+    "crc32": "511c2d7a"
+   }
+  }
+ ]
+}

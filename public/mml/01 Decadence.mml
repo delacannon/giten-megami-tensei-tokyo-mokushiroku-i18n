@@ -1,0 +1,66 @@
+; VGM Analyzer MML for OPNAvoid (PMD-style dialect)
+; Source: 01 Decadence.vgz
+; YM2203 FM/SSG. Minimum 1/16; manual BPM=166, not detected.
+; Quantized base FNUM pitch and observed FM patches; modulation and live register changes are not reproduced.
+; Unknown/out-of-range pitches become rests. KEY OFF does not include audible release.
+; MIDI 60 = o4 c; &=tie; default full gate. SSG v is the peak volume; software envelopes are not reproduced.
+; Timer B T204: approximately 166.667 BPM (hardware timer rounding).
+; OPNAvoid compatibility does not imply compatibility with every PMD compiler.
+; VGM loop is not expanded.
+; WARNING (1): Unconverted YM2203 register port=0 reg=0x22
+; WARNING (1): SSG hardware envelope shape omitted
+; Observed patch @1
+@0 = { 4, 7, 21, 19, 0, 0, 5, 69, 0, 5, 0, 0, 17, 14, 0, 8, 1, 36, 0, 1, 0, 0, 23, 16, 0, 0, 6, 57, 0, 2, 0, 0, 16, 15, 0, 9, 0, 36, 0, 1, 0, 0 }
+; Observed patch @2
+@1 = { 6, 7, 31, 0, 6, 4, 0, 28, 0, 7, 3, 0, 31, 0, 8, 7, 0, 40, 0, 2, 5, 0, 20, 0, 8, 7, 0, 40, 0, 2, 2, 0, 20, 0, 8, 7, 0, 40, 0, 2, 0, 0 }
+
+; CH1
+A T204 V108 p3 @0 o4 d1& d4 g+1& g+4 r2. r8. d2& d8 g+2.& g+8. d1& d4 g+1& g+4 r2. r8.
+A d2& d8 g+2.& g+8. d1& d4 g+1& g+4 r2. r8. d2& d8 g+2.& g+8. r16 d1& d8. r16 g+1& g+8.
+A r1 d2& d16 r16 g+2.& g+8 r16 o5 c4 r16 o4 b4 r16 o5 c4 r16 o4 b4 r16 o5 c4 r16 o4 b4
+A r16 o5 c4& c16 o4 b4& b16 a+4& a+16 a4& a16 a+4& a+16 a4& a16 a+4& a+16 a4& a16 a+4&
+A a+16 a4& a16 o5 c4& c16 o4 b4& b16 o5 c4& c16 o4 b4& b16 o5 c4& c16 o4 b4& b16 o5 c4&
+A c16 o4 b4& b16 a+4& a+16 a4& a16 a+4& a+16 a4& a16 a+4& a+16 a4& a16 a+4& a+16 a4& a16
+A o5 c4& c16 o4 b4& b16 o5 c4& c16 o4 b4& b16 o5 c4& c16 o4 b4& b16 o5 c4& c16 o4 b4& b16
+A a+4& a+16 a4& a16 a+4& a+16 a4& a16 a+4& a+16 a4& a16 a+4& a+16 a4& a16 o5 c4& c16 o4
+A b4& b16 o5 c4& c16 o4 b4& b16 o5 c4& c16 o4 b4& b16 o5 c4& c16 o4 b4& b16 a+4& a+16 a4&
+A a16 a+4& a+16 a4& a16 a+4& a+16 a4& a16 a+4& a+16 a4& a16 d16
+
+; CH2
+B T204 V108 p3 r2 r8 @0 o4 a1& a4 b2& b8 r1 r4 a2& a8 b2& b8 r2 r8 a1& a4 b2& b8 r1 r4
+B a2& a8 b2& b8 r2 r8 a1& a4 b2& b8 r1 r4 a2& a8 b2& b8 r2 r8. a1& a8. r16 b2& b16 r1 r4
+B r16 a2& a16 r16 b2& b16 r16 a4 r16 g+4 r16 a4 r16 g+4 r16 a4 r16 g+4 r16 a4& a16 g+4&
+B g+16 g4& g16 f+4& f+16 g4& g16 f+4& f+16 g4& g16 f+4& f+16 g4& g16 f+4& f+16 a4& a16
+B g+4& g+16 a4& a16 g+4& g+16 a4& a16 g+4& g+16 a4& a16 g+4& g+16 g4& g16 f+4& f+16 g4&
+B g16 f+4& f+16 g4& g16 f+4& f+16 g4& g16 f+4& f+16 a4& a16 g+4& g+16 a4& a16 g+4& g+16
+B a4& a16 g+4& g+16 a4& a16 g+4& g+16 g4& g16 f+4& f+16 g4& g16 f+4& f+16 g4& g16 f+4&
+B f+16 g4& g16 f+4& f+16 a4& a16 g+4& g+16 a4& a16 g+4& g+16 a4& a16 g+4& g+16 a4& a16
+B g+4& g+16 g4& g16 f+4& f+16 g4& g16 f+4& f+16 g4& g16 f+4& f+16 g4& g16 f+4& f+16
+
+; CH3
+C T204 V108 p3 @1 o5 c1& c1& c8. o4 g+4& g+16 a1& a1& a2 d1& d1& d8. g+4& g+16 a1& a1& a2
+C o5 c1& c1& c8. o4 g+4& g+16 a1& a4 d2.& d8. c4& c16 r16 d2.& d8 r16 e4 r16 f2.& f8 r16
+C g+4 r16 a1& a8. r16 o5 c1& c8. r16 o2 d2& d16 r16 d2& d16 r16 d2& d16 r16 d2& d8 c+2&
+C c+8 c+2& c+8 c+2& c+8 c+2& c+8 c2& c8 c2& c8 c2& c8 c2& c8 c+2& c+8 c+2& c+8 c+2& c+8
+C c+2& c+8 d2& d8 d2& d8 d2& d8 d2& d8 c+2& c+8 c+2& c+8 c+2& c+8 c+2& c+8 c2& c8 c2& c8
+C c2& c8 c2& c8 c+2& c+8 c+2& c+8 c+2& c+8 c+2& c+8 o5 c16
+
+; SSG1
+G T204 P1 v7 o0 d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1&
+G d1& d1& d1& d1& d2& d16 c+1& c+1& c+2 c1& c1& c2 c+1& c+1& c+2 d1& d1& d2 c+1& c+1& c+2
+G c1& c1& c2 c+1& c+1& c+2 d16
+
+; SSG2
+H T204 P1 v7 o0 d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1& d1&
+H d1& d1& d1& d1& d2& d16 c+1& c+1& c+2 c1& c1& c2 c+1& c+1& c+2 d1& d1& d2 c+1& c+1& c+2
+H c1& c1& c2 c+1& c+1& c+2 d16
+
+; SSG3
+I T204 P1 v8 o4 c4.& c16 r1 r2. o3 g+4& g+16 a4.& a16 r1 r1 r16 d4.& d16 r1 r2. g+4& g+16
+I a4.& a16 r1 r1 r16 o4 c4.& c16 r1 r2. o3 g+4& g+16 a4.& a16 r2. r16 d4.& d16 r2 c4& c16
+I r16 d4. r2 r16 e4 r16 f4. r2 r16 g+4 r16 a4. r2. r8 o4 c4. r2. r8 o1 d4. r4 d4. r4 d4.
+I r4 d4. r4 c+4. r4 c+4. r4 c+4. r4 c+4. r4 c4.& c16 r8. c4.& c16 r8. c4.& c16 r8. c4.&
+I c16 r8. c+4.& c+16 r8. c+4.& c+16 r8. c+4.& c+16 r8. c+4.& c+16 r8. d4.& d16 r8. d4.&
+I d16 r8. d4.& d16 r8. d4.& d16 r8. c+4.& c+16 r8. c+4.& c+16 r8. c+4.& c+16 r8. c+4.&
+I c+16 r8. c4.& c16 r8. c4.& c16 r8. c4.& c16 r8. c4.& c16 r8. c+4.& c+16 r8. c+4.& c+16
+I r8. c+4.& c+16 r8. c+4.& c+16 r8.
