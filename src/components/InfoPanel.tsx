@@ -58,6 +58,16 @@ export function InfoPanel() {
           ♥ Support on Ko-fi
         </a>
       </div>}
+      <div className="panel-video">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/lPHxhj4hH3I"
+          title="Giten Megami Tensei: Tokyo Mokushiroku — video"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </div>
     </aside>
   );
 }
