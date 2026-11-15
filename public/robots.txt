@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://delacannon.github.io/giten-megami-tensei-tokyo-mokushiroku-i18n/sitemap.xml
